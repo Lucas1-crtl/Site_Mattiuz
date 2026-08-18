@@ -1,0 +1,37 @@
+:root{
+/* Institutional palette — Código paleta de cores.pdf */
+--mtz-navy:#233D6D; /* authority, primary */
+--mtz-steel:#7195CC; /* technology, accent */
+--mtz-ink:#081215; /* near-black */
+--mtz-gray:#B9B9B9;
+--mtz-mist:#C6C2D0; /* lavender gray */
+--mtz-paper:#F7F7F6; /* off-white */
+--mtz-white:#FFFFFF;
+/* Derived (color-mix of palette only — no invented hexes) */
+--mtz-navy-deep:color-mix(in oklab,var(--mtz-navy),var(--mtz-ink) 30%);
+--mtz-steel-wash:color-mix(in oklab,var(--mtz-steel),var(--mtz-paper) 82%);
+--mtz-navy-wash:color-mix(in oklab,var(--mtz-navy),var(--mtz-paper) 92%);
+--mtz-ink-60:color-mix(in oklab,var(--mtz-ink),var(--mtz-paper) 45%);
+--mtz-ink-40:color-mix(in oklab,var(--mtz-ink),var(--mtz-paper) 62%);
+/* Semantic */
+--text-strong:var(--mtz-ink);
+--text-body:color-mix(in oklab,var(--mtz-ink),var(--mtz-paper) 12%);
+--text-muted:var(--mtz-ink-60);
+--text-on-dark:var(--mtz-paper);
+--text-link:var(--mtz-navy);
+--surface-page:var(--mtz-paper);
+--surface-card:var(--mtz-white);
+--surface-sunken:color-mix(in oklab,var(--mtz-paper),var(--mtz-gray) 18%);
+--surface-brand:var(--mtz-navy);
+--surface-inverse:var(--mtz-ink);
+--accent:var(--mtz-steel);
+--border-line:color-mix(in srgb,var(--mtz-ink) 14%,transparent);
+--border-strong:color-mix(in srgb,var(--mtz-ink) 32%,transparent);
+--focus-ring:var(--mtz-steel);
+/* States (darken on hover/press — brand rule) */
+--btn-primary-bg:var(--mtz-navy);
+--btn-primary-bg-hover:var(--mtz-navy-deep);
+--btn-primary-bg-active:color-mix(in oklab,var(--mtz-navy),var(--mtz-ink) 45%);
+--danger:#8A3B3B; /* muted — red forbidden as brand color; reserved for destructive UI only */
+--success:#3E6D5C;
+}

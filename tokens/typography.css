@@ -1,0 +1,31 @@
+:root{
+--font-display:'Fahkwang',system-ui,sans-serif; /* titles & highlights */
+--font-body:'Montserrat',system-ui,sans-serif; /* long text */
+/* Scale */
+--text-display:clamp(44px,5vw,64px);
+--text-h1:40px;
+--text-h2:30px;
+--text-h3:22px;
+--text-h4:17px;
+--text-body-lg:18px;
+--text-body-md:15px;
+--text-body-sm:13px;
+--text-overline:12px;
+--text-caption:12px;
+/* Weights — Fahkwang ships 200-700; headings favor light with selective semibold */
+--weight-display:300;
+--weight-heading:500;
+--weight-emphasis:600;
+--weight-body:400;
+--weight-body-strong:600;
+/* Tracking — generous spacing is the brand differentiator */
+--track-wordmark:.32em;
+--track-overline:.26em;
+--track-heading:.015em;
+--track-body:0; /* @kind other */
+/* Leading */
+--leading-display:1.12;
+--leading-heading:1.25;
+--leading-body:1.7;
+--leading-tight:1.4;
+}

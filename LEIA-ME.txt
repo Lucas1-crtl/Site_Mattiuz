@@ -1,0 +1,26 @@
+SITE MATTIUZ — PACOTE DE PUBLICAÇÃO
+====================================
+Site institucional completo (PT/EN/IT): Home (vídeo em câmera lenta no
+hero), Nossa História, Portfólio, Contato + páginas institucionais
+(Sustentabilidade, Carreiras, Programa de Integridade, LGPD).
+
+COMO PUBLICAR
+1. Envie TODO o conteúdo desta pasta para a raiz do servidor/hosting
+   estático (Netlify, Vercel, Cloudflare Pages, cPanel, S3 etc.).
+2. A página de entrada é index.html — nada precisa ser compilado.
+
+REQUISITOS
+- O site carrega React e Babel via CDN (unpkg.com) e pesos extras da
+  Montserrat via Google Fonts: precisa de internet.
+- Fontes Fahkwang e Montserrat Regular incluídas em assets/fonts.
+- Vídeos do hero em assets/video (reprodução automática, sem som).
+
+OBSERVAÇÕES
+- Especificações de produtos (linhas Plusupper) são ilustrativas.
+- Formulários (contato, canal de ética, amostras) são demonstrativos:
+  não enviam dados a nenhum servidor — o TI deve integrá-los a um
+  backend ou serviço de formulários antes do uso real.
+- Contato: contato@mattiuz.com.br · CEP 89069-004 · Blumenau/SC.
+- Este pacote é um protótipo de alta fidelidade gerado do design system
+  Mattiuz; para produção de longo prazo recomenda-se portar para um
+  build React convencional (sem Babel no navegador).
