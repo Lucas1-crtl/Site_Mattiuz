@@ -7,10 +7,10 @@ function History({ go, t }) {
     <main data-screen-label="Nossa História">
       <section style={{ background: "var(--mtz-ink)", position: "relative", overflow: "hidden" }}>
         <PB4 tile={5} tileSize={140} bg="transparent" style={{ position: "absolute", left: 0, top: 0, bottom: 0, width: 300, opacity: .35, pointerEvents: "none" }} />
-        <div style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "88px 32px", display: "grid", gridTemplateColumns: "1fr .9fr", gap: 56, alignItems: "center", position: "relative" }}>
+        <div className="history-hero-grid" style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "88px 32px", display: "grid", gridTemplateColumns: "1fr .9fr", gap: 56, alignItems: "center", position: "relative" }}>
           <div>
             <div style={{ font: "600 11px/1 var(--font-body)", letterSpacing: "var(--track-overline)", color: "var(--mtz-steel)", marginBottom: 22, textTransform: "uppercase" }}>{t.h_over}</div>
-            <h1 style={{ font: "300 48px/1.15 var(--font-display)", color: "var(--mtz-paper)", margin: 0 }}>{t.h_t}</h1>
+            <h1 className="page-title" style={{ font: "300 48px/1.15 var(--font-display)", color: "var(--mtz-paper)", margin: 0 }}>{t.h_t}</h1>
             <p style={{ font: "400 15.5px/1.75 var(--font-body)", color: "var(--mtz-gray)", maxWidth: 480, margin: "24px 0 0" }}>{t.h_lead}</p>
           </div>
           <figure style={{ margin: 0 }}>
@@ -20,8 +20,8 @@ function History({ go, t }) {
         </div>
       </section>
 
-      <section style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "88px 32px" }}>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 0 }}>
+      <section className="section-pad" style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "88px 32px" }}>
+        <div className="history-blocks" style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 0 }}>
           {blocks.map((b, i) => (
             <div key={i} style={{ padding: "0 36px", borderLeft: i ? "var(--line-hair)" : "none" }}>
               <div style={{ font: "300 44px/1 var(--font-display)", color: "var(--mtz-steel)", marginBottom: 18 }}>{"0" + (i + 1)}</div>
@@ -32,8 +32,8 @@ function History({ go, t }) {
         </div>
       </section>
 
-      <section style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "0 32px 88px" }}>
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1.4fr", gap: 12 }}>
+      <section className="history-gallery-section" style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "0 32px 88px" }}>
+        <div className="history-gallery" style={{ display: "grid", gridTemplateColumns: "1fr 1.4fr", gap: 12 }}>
           <figure style={{ margin: 0 }}>
             <img src={IMG + "historia-cafe.png"} alt="" style={{ width: "100%", height: 280, objectFit: "cover", display: "block", filter: "grayscale(1)" }} />
             <figcaption style={{ font: "400 11px/1.6 var(--font-body)", color: "var(--text-muted)", marginTop: 10, letterSpacing: ".04em" }}>{t.h_cap1}</figcaption>
@@ -46,8 +46,8 @@ function History({ go, t }) {
       </section>
 
       <section style={{ background: "var(--mtz-navy)" }}>
-        <div style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "80px 32px", display: "grid", gridTemplateColumns: "1.1fr .9fr", gap: 56, alignItems: "center" }}>
-          <div style={{ height: 380, background: "var(--mtz-ink)", overflow: "hidden" }}>
+        <div className="history-plant-grid" style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "80px 32px", display: "grid", gridTemplateColumns: "1.1fr .9fr", gap: 56, alignItems: "center" }}>
+          <div className="history-plant-image" style={{ height: 380, background: "var(--mtz-ink)", overflow: "hidden" }}>
             <img src={IMG + "planta-mattiuz.jpg"} alt="" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center 32%", display: "block", filter: "grayscale(1)", opacity: .45 }} />
           </div>
           <div>
@@ -58,9 +58,9 @@ function History({ go, t }) {
         </div>
       </section>
 
-      <section style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "88px 32px" }}>
+      <section className="section-pad" style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "88px 32px" }}>
         <SH4 overline={t.pres_over} title={t.pres_t} />
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 14, marginTop: 44 }}>
+        <div className="presence-grid" style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 14, marginTop: 44 }}>
           {t.pres.map((p, i) => (
             <Cd4 key={i} pad={28}>
               <div style={{ font: "600 10px/1 var(--font-body)", letterSpacing: ".24em", color: "var(--mtz-navy)", marginBottom: 14 }}>{t.pres_labels[i]}</div>

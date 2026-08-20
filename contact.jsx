@@ -10,12 +10,12 @@ function Portfolio({ t }) {
   const items = [t.cat_all, t.cats.fus, t.cats.malha, t.cats.tecido, t.cats.nt];
   const list = window.PRODUCTS.filter((p) => tab === 0 || p.cat === CAT_KEYS[tab]);
   return (
-    <main data-screen-label="Portfólio" style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "64px 32px 88px" }}>
+    <main className="portfolio-main" data-screen-label="Portfólio" style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "64px 32px 88px" }}>
       <SH3 overline={t.prod_over} title="Plusupper" lead={t.port_l} />
-      <div style={{ marginTop: 36 }}>
+      <div className="portfolio-tabs" style={{ marginTop: 36 }}>
         <Tb3 items={items} active={tab} onChange={setTab} />
       </div>
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 14, marginTop: 28 }}>
+      <div className="portfolio-grid" style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 14, marginTop: 28 }}>
         {list.map((p) => <ProductCard key={p.name} p={p} t={t} onAsk={() => setAsk(p)} />)}
       </div>
       <Dlg3 open={!!ask} onClose={() => setAsk(null)} title={t.dlg_t + (ask ? ask.name : "")}
@@ -49,11 +49,11 @@ function Contact({ t }) {
       <section style={{ background: "var(--mtz-navy)", position: "relative", overflow: "hidden" }}>
         <img src={IMG + "galpao-blumenau.png"} alt="" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", objectPosition: "center 55%", filter: "grayscale(1)", opacity: .12, pointerEvents: "none" }} />
         <div style={{ position: "absolute", inset: 0, background: "linear-gradient(90deg,color-mix(in srgb,var(--mtz-navy) 92%,transparent) 26%,transparent 75%)", pointerEvents: "none" }} />
-        <div style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "88px 32px 80px", position: "relative" }}>
+        <div className="contact-hero-inner" style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "88px 32px 80px", position: "relative" }}>
           <div style={{ font: "600 11px/1 var(--font-body)", letterSpacing: "var(--track-overline)", color: "var(--mtz-steel)", marginBottom: 18, textTransform: "uppercase" }}>{t.c_over}</div>
-          <h1 style={{ font: "300 48px/1.15 var(--font-display)", color: "var(--mtz-paper)", margin: 0, maxWidth: 560 }}>{t.c_t}</h1>
+          <h1 className="page-title" style={{ font: "300 48px/1.15 var(--font-display)", color: "var(--mtz-paper)", margin: 0, maxWidth: 560 }}>{t.c_t}</h1>
           <p style={{ font: "400 15px/1.75 var(--font-body)", color: "var(--mtz-gray)", maxWidth: 440, margin: "20px 0 0" }}>{t.c_l}</p>
-          <div style={{ display: "flex", gap: 40, marginTop: 44, borderTop: "1px solid color-mix(in srgb,var(--mtz-paper) 22%,transparent)", paddingTop: 24 }}>
+          <div className="contact-meta" style={{ display: "flex", gap: 40, marginTop: 44, borderTop: "1px solid color-mix(in srgb,var(--mtz-paper) 22%,transparent)", paddingTop: 24 }}>
             <div>
               <div style={{ font: "600 9.5px/1 var(--font-body)", letterSpacing: ".24em", color: "var(--mtz-steel)", marginBottom: 8 }}>{t.foot_hq}</div>
               <div style={{ font: "400 13px/1.6 var(--font-body)", color: "var(--mtz-paper)" }}>{t.foot_addr}</div>
@@ -65,7 +65,7 @@ function Contact({ t }) {
           </div>
         </div>
       </section>
-      <div style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "64px 32px 88px", display: "grid", gridTemplateColumns: ".9fr 1.1fr", gap: 64 }}>
+      <div className="contact-layout" style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "64px 32px 88px", display: "grid", gridTemplateColumns: ".9fr 1.1fr", gap: 64 }}>
       <div>
         <div style={{ display: "grid", gap: 18 }}>
           <Dv3 label={t.c_div} />
@@ -97,16 +97,16 @@ function Contact({ t }) {
             <Labeled label={t.f_client}>
               <Rd3 direction="row" options={[t.f_yes, t.f_no]} defaultValue={t.f_no} />
             </Labeled>
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
+            <div className="form-grid-2" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
               <Sel3 label={t.f_country} options={t.countries} value={country} onChange={(e) => setCountry(e.target.value)} />
               <Sel3 label={t.f_reason} options={t.reasons} />
             </div>
             <In3 label={t.f_subject} placeholder={t.f_subject_ph} />
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
+            <div className="form-grid-2" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
               <In3 label={t.f_fullname} placeholder={t.f_fullname_ph} />
               <In3 label={t.f_email} placeholder={t.f_email_ph} />
             </div>
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
+            <div className="form-grid-2" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
               <In3 label={isBR ? t.f_doc_br : t.f_doc_intl} placeholder={t.f_doc_ph} />
               <In3 label={t.f_phone} placeholder={t.f_phone_ph} />
             </div>

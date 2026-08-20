@@ -4,9 +4,9 @@ const { WaveElement: WE5, Button: Btn5, Card: Cd5, Badge: Bd5, Toast: Ts5 } = DS
 function InstHero({ t, title }) {
   return (
     <section style={{ background: "var(--mtz-navy)" }}>
-      <div style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "64px 32px 56px" }}>
+      <div className="inst-hero-inner" style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "64px 32px 56px" }}>
         <div style={{ font: "600 11px/1 var(--font-body)", letterSpacing: "var(--track-overline)", color: "var(--mtz-steel)", marginBottom: 18, textTransform: "uppercase" }}>{t.foot_inst}</div>
-        <h1 style={{ font: "300 44px/1.15 var(--font-display)", color: "var(--mtz-paper)", margin: 0 }}>{title}</h1>
+        <h1 className="page-title" style={{ font: "300 44px/1.15 var(--font-display)", color: "var(--mtz-paper)", margin: 0 }}>{title}</h1>
       </div>
     </section>
   );
@@ -38,13 +38,13 @@ function MailStrip({ t, c, go }) {
 
 function SustPage({ t, c, go }) {
   return (
-    <section style={{ maxWidth: 920, margin: "0 auto", padding: "64px 32px 96px" }}>
+    <section className="inst-body" style={{ maxWidth: 920, margin: "0 auto", padding: "64px 32px 96px" }}>
       <WE5 n={6} height={44} style={{ marginBottom: 24 }} />
       <InstP style={{ maxWidth: 680 }}>{c.p1}</InstP>
       <div style={{ marginTop: 48 }}>
         <InstH2>{c.eco_t}</InstH2>
         <InstP style={{ maxWidth: 620, marginBottom: 20 }}>{c.eco_p}</InstP>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 14 }}>
+        <div className="inst-grid-3" style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 14 }}>
           {c.eco.map((e) => (
             <Cd5 key={e[0]} pad={20}>
               <Bd5 tone="steel">ECO</Bd5>
@@ -54,7 +54,7 @@ function SustPage({ t, c, go }) {
           ))}
         </div>
       </div>
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 48, marginTop: 48 }}>
+      <div className="inst-grid-2" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 48, marginTop: 48 }}>
         <div>
           <InstH2>{c.rep_t}</InstH2>
           <div>{c.reports.map((r) => <DocRow key={r} name={r} />)}</div>
@@ -72,10 +72,10 @@ function SustPage({ t, c, go }) {
 
 function CarrPage({ t, c, go }) {
   return (
-    <section style={{ maxWidth: 920, margin: "0 auto", padding: "64px 32px 96px" }}>
+    <section className="inst-body" style={{ maxWidth: 920, margin: "0 auto", padding: "64px 32px 96px" }}>
       <WE5 n={6} height={44} style={{ marginBottom: 24 }} />
       <InstP style={{ maxWidth: 680 }}>{c.p1}</InstP>
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 14, marginTop: 40 }}>
+      <div className="inst-grid-3" style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 14, marginTop: 40 }}>
         {c.areas.map((a, i) => (
           <Cd5 key={a[0]} pad={22}>
             <div style={{ font: "300 30px/1 var(--font-display)", color: "var(--mtz-steel)", marginBottom: 12 }}>{"0" + (i + 1)}</div>
@@ -94,12 +94,12 @@ function EticaPage({ t, c, go }) {
   const [txt, setTxt] = React.useState("");
   const [ok, setOk] = React.useState(false);
   return (
-    <section style={{ maxWidth: 920, margin: "0 auto", padding: "64px 32px 96px" }}>
+    <section className="inst-body" style={{ maxWidth: 920, margin: "0 auto", padding: "64px 32px 96px" }}>
       <WE5 n={6} height={44} style={{ marginBottom: 24 }} />
       <InstP style={{ maxWidth: 680 }}>{c.p1}</InstP>
       <div style={{ marginTop: 48 }}>
         <InstH2>{c.pillars_t}</InstH2>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 0, borderTop: "var(--line-hair)", borderLeft: "var(--line-hair)" }}>
+        <div className="inst-pillars-grid" style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 0, borderTop: "var(--line-hair)", borderLeft: "var(--line-hair)" }}>
           {c.pillars.map((p, i) => (
             <div key={i} style={{ padding: "20px 22px", borderRight: "var(--line-hair)", borderBottom: "var(--line-hair)", display: "flex", gap: 14, alignItems: "baseline" }}>
               <span style={{ font: "300 26px/1 var(--font-display)", color: "var(--mtz-steel)" }}>{i + 1}</span>
@@ -108,7 +108,7 @@ function EticaPage({ t, c, go }) {
           ))}
         </div>
       </div>
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 48, marginTop: 48 }}>
+      <div className="inst-grid-2" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 48, marginTop: 48 }}>
         <div>
           <InstH2>{c.code_t}</InstH2>
           <InstP>{c.code_p}</InstP>
@@ -122,7 +122,7 @@ function EticaPage({ t, c, go }) {
       <Cd5 variant="navy" pad={32} style={{ marginTop: 48 }}>
         <div style={{ font: "500 20px/1.3 var(--font-display)", color: "var(--mtz-paper)", marginBottom: 10 }}>{c.canal_t}</div>
         <p style={{ font: "400 13.5px/1.7 var(--font-body)", color: "var(--mtz-gray)", margin: "0 0 18px", maxWidth: 560 }}>{c.canal_p}</p>
-        <div style={{ display: "flex", gap: 12, alignItems: "stretch" }}>
+        <div className="ethics-message-row" style={{ display: "flex", gap: 12, alignItems: "stretch" }}>
           <textarea value={txt} onChange={(e) => setTxt(e.target.value)} placeholder={c.canal_ph} rows={2}
             style={{ flex: 1, padding: "12px 14px", font: "400 13.5px/1.5 var(--font-body)", color: "var(--text-strong)", background: "var(--mtz-paper)", border: "none", borderRadius: 0, outline: "none", resize: "vertical" }}></textarea>
           <Btn5 variant="inverse" onClick={() => { setTxt(""); setOk(true); }}>{c.canal_send}</Btn5>
@@ -136,10 +136,10 @@ function EticaPage({ t, c, go }) {
 
 function LgpdPage({ t, c, go }) {
   return (
-    <section style={{ maxWidth: 920, margin: "0 auto", padding: "64px 32px 96px" }}>
+    <section className="inst-body" style={{ maxWidth: 920, margin: "0 auto", padding: "64px 32px 96px" }}>
       <WE5 n={6} height={44} style={{ marginBottom: 24 }} />
       <InstP style={{ maxWidth: 680, font: "400 16px/1.8 var(--font-body)" }}>{c.p1}</InstP>
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14, marginTop: 40 }}>
+      <div className="inst-grid-2" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14, marginTop: 40 }}>
         {c.facts.map((f) => (
           <Cd5 key={f[0]} pad={26}>
             <div style={{ font: "500 17px/1.3 var(--font-display)", color: "var(--mtz-navy)", marginBottom: 10 }}>{f[0]}</div>

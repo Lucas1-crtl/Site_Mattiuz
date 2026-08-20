@@ -2191,7 +2191,7 @@ const T = {
     fab_bg: "Solte aqui a imagem de engenharia (abstrato geométrico/celular) — vira fundo em transparência",
     stats_over: "Força em números",
     stats_t: "Fabricação com garantia",
-    s1v: "250 km",
+    s1v: "250 km", // editar aqui o número exato.
     s1l: "Capacidade diária",
     s1d: "de produção de entretela",
     s2v: "+40",

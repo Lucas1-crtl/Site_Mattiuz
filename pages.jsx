@@ -40,12 +40,12 @@ function Home({ go, t }) {
       <section style={{ background: "var(--mtz-navy)", position: "relative", overflow: "hidden" }}>
         <HeroVideo />
         <div style={{ position: "absolute", inset: 0, background: "linear-gradient(90deg,color-mix(in srgb,var(--mtz-navy) 96%,transparent) 30%,color-mix(in srgb,var(--mtz-navy) 40%,transparent) 100%)", pointerEvents: "none" }} />
-        <div style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "120px 32px 112px", position: "relative" }}>
+        <div className="hero-inner" style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "120px 32px 112px", position: "relative" }}>
           <div style={{ maxWidth: 640 }}>
             <div style={{ font: "600 11px/1 var(--font-body)", letterSpacing: "var(--track-overline)", color: "var(--mtz-steel)", marginBottom: 22 }}>{t.hero_over}</div>
-            <h1 style={{ font: "300 56px/1.12 var(--font-display)", color: "var(--mtz-paper)", margin: 0, letterSpacing: ".01em" }}>{t.hero_h1a}<br />{t.hero_h1b}</h1>
+            <h1 className="hero-title" style={{ font: "300 56px/1.12 var(--font-display)", color: "var(--mtz-paper)", margin: 0, letterSpacing: ".01em" }}>{t.hero_h1a}<br />{t.hero_h1b}</h1>
             <p style={{ font: "400 16px/1.75 var(--font-body)", color: "var(--mtz-gray)", maxWidth: 460, margin: "24px 0 36px" }}>{t.hero_p}</p>
-            <div style={{ display: "flex", gap: 14 }}>
+            <div className="hero-actions" style={{ display: "flex", gap: 14 }}>
               <Button variant="inverse" size="lg" onClick={() => go("portfolio")}>{t.hero_b1}</Button>
               <Button variant="outline" size="lg" style={{ borderColor: "var(--mtz-steel)", color: "var(--mtz-steel)" }} onClick={() => go("history")}>{t.hero_b2}</Button>
             </div>
@@ -53,9 +53,9 @@ function Home({ go, t }) {
         </div>
       </section>
 
-      <section style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "88px 32px" }}>
+      <section className="section-pad" style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "88px 32px" }}>
         <SectionHeader overline={t.eixos_over} title={t.eixos_t} lead={t.eixos_l} />
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(5,1fr)", gap: 14, marginTop: 44 }}>
+        <div className="axis-grid" style={{ display: "grid", gridTemplateColumns: "repeat(5,1fr)", gap: 14, marginTop: 44 }}>
           {t.eixos.map((e, i) => (
             <Card key={i} pad={20}>
               <WaveElement n={WAVE_N[i]} height={40} style={{ marginBottom: 16 }} />
@@ -68,12 +68,12 @@ function Home({ go, t }) {
 
       <section className="fabsec" style={{ position: "relative", overflow: "hidden", borderTop: "var(--line-hair)", borderBottom: "var(--line-hair)", background: "var(--surface-card)" }}>
         <div className="fabgrad" style={{ position: "absolute", inset: 0, zIndex: 1, background: "linear-gradient(270deg,var(--mtz-paper) 22%,transparent 70%)", pointerEvents: "none" }} />
-        <div style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "80px 32px", display: "grid", gridTemplateColumns: ".9fr 1.1fr", gap: 48, alignItems: "center", position: "relative", zIndex: 2 }}>
+        <div className="fab-layout" style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "80px 32px", display: "grid", gridTemplateColumns: ".9fr 1.1fr", gap: 48, alignItems: "center", position: "relative", zIndex: 2 }}>
           <div>
             <SectionHeader overline={t.fab_over} title={t.fab_t} lead={t.fab_p} />
             <div style={{ marginTop: 28 }}><Button variant="outline" onClick={() => go("history")}>{t.nav_hist}</Button></div>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 12, height: 320 }}>
+          <div className="fab-images" style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 12, height: 320 }}>
             {["producao-rolos.jpg", "acabamento-dobras.jpg", "estoque-rolos.jpg"].map((f) => (
               <div key={f} style={{ background: "var(--mtz-navy)", overflow: "hidden" }}>
                 <img src={IMG + f} alt="" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block", filter: "grayscale(1)", opacity: .42 }} />
@@ -85,7 +85,7 @@ function Home({ go, t }) {
       </section>
 
       <section style={{ background: "var(--mtz-ink)" }}>
-        <div style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "72px 32px", display: "grid", gridTemplateColumns: "1fr 1fr 1fr 1fr", gap: 40, alignItems: "center" }}>
+        <div className="stats-grid" style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "72px 32px", display: "grid", gridTemplateColumns: "1fr 1fr 1fr 1fr", gap: 40, alignItems: "center" }}>
           <SectionHeader onDark overline={t.stats_over} title={t.stats_t} />
           <Stat onDark value={t.s1v} label={t.s1l} detail={t.s1d} />
           <Stat onDark value={t.s2v} label={t.s2l} detail={t.s2d} />
@@ -93,19 +93,19 @@ function Home({ go, t }) {
         </div>
       </section>
 
-      <section style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "88px 32px" }}>
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", gap: 24 }}>
+      <section className="section-pad" style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "88px 32px" }}>
+        <div className="product-head" style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", gap: 24 }}>
           <SectionHeader overline={t.prod_over} title={t.prod_t} lead={t.prod_l} />
           <Button variant="outline" onClick={() => go("portfolio")}>{t.prod_all}</Button>
         </div>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 14, marginTop: 44 }}>
+        <div className="product-grid" style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 14, marginTop: 44 }}>
           {PRODUCTS.slice(0, 3).map((p) => <ProductCard key={p.name} p={p} t={t} onAsk={() => go("portfolio")} />)}
         </div>
       </section>
 
       <PatternBlock tile={1} tileSize={110} style={{ borderTop: "var(--line-hair)" }}>
-        <div style={{ maxWidth: 760, margin: "0 auto", padding: "80px 32px", textAlign: "center" }}>
-          <div style={{ background: "var(--surface-page)", border: "var(--line-hair)", padding: "48px 56px" }}>
+        <div className="cta-wrap" style={{ maxWidth: 760, margin: "0 auto", padding: "80px 32px", textAlign: "center" }}>
+          <div className="cta-card" style={{ background: "var(--surface-page)", border: "var(--line-hair)", padding: "48px 56px" }}>
             <Logo variant="icon" height={44} style={{ margin: "0 auto 20px" }} />
             <h2 style={{ font: "300 30px/1.25 var(--font-display)", color: "var(--text-strong)", margin: "0 0 12px" }}>{t.cta_t}</h2>
             <p style={{ font: "400 14px/1.7 var(--font-body)", color: "var(--text-muted)", margin: "0 0 28px" }}>{t.cta_p}</p>
