@@ -1,31 +1,104 @@
-<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Mattiuz | Entretelas e Materiais Têxteis</title>
-<link rel="stylesheet" href="styles.css">
-<meta name="description" content="Mattiuz - Engenharia e fabricação de materiais têxteis de alta performance.">
-<link rel="icon" type="image/png" href="/favicon2.png">
-<link rel="apple-touch-icon" href="/favicon2.png">
-<meta property="og:site_name" content="Mattiuz">
-<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
-<script src="_ds_bundle.js"></script>
-<script src="image-slot.js"></script>
-<style>
-html,body{margin:0;background:var(--surface-page);font-family:var(--font-body);color:var(--text-body)}
-*{box-sizing:border-box}
-a{color:var(--text-link);text-decoration:none}
-a:hover{color:var(--mtz-navy-deep);text-decoration:underline}
-::selection{background:var(--mtz-steel);color:var(--mtz-ink)}
-.fabbg{display:block}
-.fabbg:not([data-filled]){position:relative;height:160px;max-width:calc(var(--container-max) - 64px);margin:0 auto 48px}
-.fabbg[data-filled]{position:absolute;inset:0;z-index:0;filter:grayscale(1);opacity:.14}
-.fabsec:has(.fabbg:not([data-filled])) .fabgrad{display:none}
-</style>
-</head><body><div id="root"></div>
-<script type="text/babel" src="i18n.jsx"></script>
-<script type="text/babel" src="chrome.jsx"></script>
-<script type="text/babel" src="pages.jsx"></script>
-<script type="text/babel" src="historia.jsx"></script>
-<script type="text/babel" src="institucional.jsx"></script>
-<script type="text/babel" src="contact.jsx"></script>
-<script type="text/babel" src="app.jsx"></script>
-</body></html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <title>Mattiuz | Entretelas e Materiais Têxteis</title>
+  <meta name="description" content="Mattiuz: engenharia e fabricação de materiais têxteis de alta performance, com soluções para a indústria têxtil e atuação internacional.">
+  <meta name="application-name" content="Mattiuz">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <meta name="theme-color" content="#0b1f33">
+
+  <link rel="canonical" href="https://mattiuz.com.br/">
+  <link rel="icon" type="image/png" sizes="512x512" href="/favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Mattiuz">
+  <meta property="og:title" content="Mattiuz | Entretelas e Materiais Têxteis">
+  <meta property="og:description" content="Engenharia e fabricação de materiais têxteis de alta performance para a cadeia global.">
+  <meta property="og:url" content="https://mattiuz.com.br/">
+  <meta property="og:locale" content="pt_BR">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://mattiuz.com.br/#website",
+        "url": "https://mattiuz.com.br/",
+        "name": "Mattiuz",
+        "alternateName": "Mattiuz Têxtil",
+        "inLanguage": "pt-BR",
+        "publisher": { "@id": "https://mattiuz.com.br/#organization" }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://mattiuz.com.br/#organization",
+        "name": "Mattiuz",
+        "url": "https://mattiuz.com.br/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://mattiuz.com.br/favicon.png",
+          "width": 512,
+          "height": 512
+        },
+        "description": "Engenharia e fabricação de materiais têxteis de alta performance para a cadeia global.",
+        "email": "contato@mattiuz.com.br",
+        "address": {
+          "@type": "PostalAddress",
+          "postalCode": "89069-004",
+          "addressLocality": "Blumenau",
+          "addressRegion": "SC",
+          "addressCountry": "BR"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600&display=swap">
+
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+  <script src="_ds_bundle.js"></script>
+  <script src="image-slot.js"></script>
+
+  <style>
+    html,body{margin:0;background:var(--surface-page);font-family:var(--font-body);color:var(--text-body)}
+    *{box-sizing:border-box}
+    a{color:var(--text-link);text-decoration:none}
+    a:hover{color:var(--mtz-navy-deep);text-decoration:underline}
+    ::selection{background:var(--mtz-steel);color:var(--mtz-ink)}
+    html[data-lang="zh"]{--font-display:"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;--font-body:"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;--track-overline:.14em}
+    .fabbg{display:block}
+    .fabbg:not([data-filled]){position:relative;height:160px;max-width:calc(var(--container-max) - 64px);margin:0 auto 48px}
+    .fabbg[data-filled]{position:absolute;inset:0;z-index:0;filter:grayscale(1);opacity:.14}
+    .fabsec:has(.fabbg:not([data-filled])) .fabgrad{display:none}
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <noscript>
+    <main style="max-width:760px;margin:48px auto;padding:0 24px;font-family:Arial,sans-serif;line-height:1.6">
+      <h1>Mattiuz | Entretelas e Materiais Têxteis</h1>
+      <p>A Mattiuz atua com engenharia e fabricação de materiais têxteis de alta performance. Site oficial: https://mattiuz.com.br/</p>
+      <p>Blumenau, Santa Catarina, Brasil · contato@mattiuz.com.br</p>
+    </main>
+  </noscript>
+
+  <script type="text/babel" src="i18n.jsx"></script>
+  <script type="text/babel" src="chrome.jsx"></script>
+  <script type="text/babel" src="pages.jsx"></script>
+  <script type="text/babel" src="historia.jsx"></script>
+  <script type="text/babel" src="institucional.jsx"></script>
+  <script type="text/babel" src="contact.jsx"></script>
+  <script type="text/babel" src="app.jsx"></script>
+</body>
+</html>

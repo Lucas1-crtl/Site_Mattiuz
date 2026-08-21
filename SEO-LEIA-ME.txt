@@ -1,0 +1,52 @@
+MATTIUZ — SEO + MOBILE
+======================
+
+O pacote foi preparado para:
+- manter as melhorias do ZIP recebido;
+- funcionar melhor em celulares e tablets;
+- informar ao Google que o nome preferido do site é "Mattiuz";
+- fornecer favicon quadrado compatível com as diretrizes do Google;
+- permitir rastreamento por Google e outros buscadores;
+- permitir o OAI-SearchBot (ChatGPT Search);
+- fornecer sitemap.xml;
+- fornecer llms.txt com a identidade oficial da Mattiuz.
+
+IMPORTANTE
+----------
+Nenhum arquivo TXT consegue "obrigar" o Google a mostrar o site ou colocá-lo em primeiro lugar.
+robots.txt apenas permite/bloqueia rastreadores. O ranking e o nome exibido são decididos pelo Google.
+
+APÓS O UPLOAD NA PUBLIC_HTML
+----------------------------
+1. Teste:
+   https://mattiuz.com.br/
+   https://mattiuz.com.br/favicon.png
+   https://mattiuz.com.br/robots.txt
+   https://mattiuz.com.br/sitemap.xml
+   https://mattiuz.com.br/llms.txt
+
+2. No Google Search Console:
+   - Inspecione https://mattiuz.com.br/
+   - Solicite indexação uma vez após o upload.
+   - Em Sitemaps, envie: sitemap.xml
+
+3. Aguarde o novo rastreamento. Título, nome do site e favicon podem atualizar em momentos diferentes.
+
+RESULTADO DESEJADO NO GOOGLE
+----------------------------
+[ícone Mattiuz] Mattiuz
+https://mattiuz.com.br
+Mattiuz | Entretelas e Materiais Têxteis
+
+ARQUIVOS SEO ADICIONADOS
+------------------------
+robots.txt
+sitemap.xml
+llms.txt
+site.webmanifest
+favicon.png
+favicon-192.png
+apple-touch-icon.png
+SEO-LEIA-ME.txt
+
+O index.html também recebeu canonical, meta robots, Open Graph e JSON-LD WebSite + Organization.

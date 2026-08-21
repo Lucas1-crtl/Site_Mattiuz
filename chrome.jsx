@@ -22,13 +22,15 @@ function UtilLink({ label, active, onClick }) {
   );
 }
 
+const LANG_LABEL = { pt: "PT", en: "EN", it: "IT", zh: "中文" };
+
 function LangSwitch({ lang, setLang }) {
   return (
     <div style={{ display: "flex", alignItems: "center", gap: 2 }}>
-      {["pt", "en", "it"].map((l) => (
+      {["pt", "en", "it", "zh"].map((l) => (
         <button key={l} onClick={() => setLang(l)}
-          style={{ background: lang === l ? "var(--mtz-paper)" : "transparent", color: lang === l ? "var(--mtz-navy)" : "var(--mtz-gray)", border: "none", cursor: "pointer", padding: "4px 7px", font: "600 9px/1 var(--font-body)", letterSpacing: ".12em", transition: "background var(--dur-fast)" }}>
-          {l.toUpperCase()}
+          style={{ background: lang === l ? "var(--mtz-paper)" : "transparent", color: lang === l ? "var(--mtz-navy)" : "var(--mtz-gray)", border: "none", cursor: "pointer", padding: "4px 7px", font: l === "zh" ? "500 11px/1 var(--font-body)" : "600 9px/1 var(--font-body)", letterSpacing: l === "zh" ? "0" : ".12em", transition: "background var(--dur-fast)" }}>
+          {LANG_LABEL[l]}
         </button>
       ))}
     </div>

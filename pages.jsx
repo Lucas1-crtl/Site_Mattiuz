@@ -2,31 +2,44 @@ const DS2 = window.MattiuzDesignSystem_ac598e;
 const { Logo, WaveElement, PatternBlock, SectionHeader, Button, Card, Badge, Stat, Tooltip } = DS2;
 
 const WAVE_N = [1, 6, 10, 4, 2];
-const PRODUCTS = [
-  { name: "Plusupper H2705", cat: "fus", base: "100% poliéster", g: "45 g/m²", stock: true, img: "label.png" },
-  { name: "Plusupper M1200", cat: "malha", base: "PES charmeuse", g: "38 g/m²", stock: true, img: "mock02.png" },
-  { name: "Plusupper T410", cat: "tecido", base: "algodão/PES", g: "110 g/m²", stock: false, img: "mock08.png" },
-  { name: "Plusupper N330", cat: "nt", base: "100% PES", g: "33 g/m²", stock: true, img: "workwear.png" },
-  { name: "Plusupper H900", cat: "fus", base: "PA micropontos", g: "52 g/m²", stock: true, img: "mock05.png" },
-  { name: "Plusupper T680", cat: "tecido", base: "crina/mescla", g: "160 g/m²", stock: false, img: "facade.png" },
-];
+const MARK_V = "?v=4";
+const LINE_SRC = ["port/woven.jpg", "port/knitted.jpg", "port/non-woven.jpg", "port/bonding.jpg", "port/specialty.jpg", "port/narrow.jpg"].map((f) => f + MARK_V);
+const HOME_SRC = ["home/woven.jpg", "home/knitted.jpg", "home/non-woven.jpg"].map((f) => f + MARK_V);
+
+const HERO_SRCS = [1, 2, 3, 4].map((n) => `assets/video/hero-${n}.mp4`);
+const HERO_FADE = 900;
 
 function HeroVideo() {
-  const [i, setI] = React.useState(0);
-  const refs = [React.useRef(null), React.useRef(null)];
-  const srcs = ["assets/video/galpoes-slowmo.mp4", "assets/video/galpoes-slowmo-2.mp4"];
+  const refs = HERO_SRCS.map(() => React.useRef(null));
+  const [cur, setCur] = React.useState(0);
+  const busy = React.useRef(false);
   React.useEffect(() => {
-    refs.forEach((r) => { if (r.current) r.current.playbackRate = 0.5; });
-    const cur = refs[i].current;
-    if (cur) { cur.currentTime = 0; cur.play().catch(() => {}); }
-    const nxt = refs[(i + 1) % 2].current;
-    if (nxt) nxt.load();
-  }, [i]);
-  const vidStyle = (on) => ({ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", objectPosition: "center 30%", filter: "grayscale(1)", opacity: on ? .5 : 0, transition: "opacity 600ms var(--ease-out)", pointerEvents: "none" });
+    const v = refs[cur].current;
+    if (!v) return;
+    v.muted = true;
+    v.playbackRate = 0.5;
+    const start = () => { v.playbackRate = 0.5; v.play().catch(() => {}); };
+    start();
+    v.addEventListener("canplay", start);
+    busy.current = false;
+    return () => v.removeEventListener("canplay", start);
+  }, [cur]);
+  const onTime = (i) => () => {
+    const v = refs[i].current;
+    if (i !== cur || busy.current || !v || !v.duration) return;
+    if ((v.duration - v.currentTime) / 0.5 > HERO_FADE / 1000) return;
+    busy.current = true;
+    const n = (i + 1) % HERO_SRCS.length;
+    const nv = refs[n].current;
+    if (nv) { nv.muted = true; nv.currentTime = 0; nv.playbackRate = 0.5; nv.play().catch(() => {}); }
+    setCur(n);
+    setTimeout(() => { if (refs[i].current) refs[i].current.pause(); }, HERO_FADE);
+  };
   return (
     <React.Fragment>
-      {srcs.map((s, k) => (
-        <video key={k} ref={refs[k]} muted playsInline preload="auto" autoPlay={k === 0} onEnded={() => setI((i + 1) % 2)} style={vidStyle(k === i)}>
+      {HERO_SRCS.map((s, k) => (
+        <video key={s} ref={refs[k]} muted playsInline preload="auto" autoPlay={k === 0} onTimeUpdate={onTime(k)}
+          style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", objectPosition: "center 30%", filter: "grayscale(1)", opacity: k === cur ? .5 : 0, transition: `opacity ${HERO_FADE}ms linear`, pointerEvents: "none" }}>
           <source src={s} type="video/mp4" />
         </video>
       ))}
@@ -99,7 +112,7 @@ function Home({ go, t }) {
           <Button variant="outline" onClick={() => go("portfolio")}>{t.prod_all}</Button>
         </div>
         <div className="product-grid" style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 14, marginTop: 44 }}>
-          {PRODUCTS.slice(0, 3).map((p) => <ProductCard key={p.name} p={p} t={t} onAsk={() => go("portfolio")} />)}
+          {t.lines.slice(0, 3).map((l, i) => <LineTeaser key={l.t} l={l} i={i} t={t} onAsk={() => go("portfolio")} />)}
         </div>
       </section>
 
@@ -117,23 +130,23 @@ function Home({ go, t }) {
   );
 }
 
-function ProductCard({ p, t, onAsk }) {
+function LineTeaser({ l, i, t, onAsk }) {
   return (
-    <Card pad={0} style={{ overflow: "hidden" }}>
-      <div style={{ height: 150, background: `var(--mtz-mist) url(${IMG + p.img}) center/cover` }} />
-      <div style={{ padding: 20 }}>
-        <div style={{ display: "flex", gap: 8, marginBottom: 12 }}>
-          <Badge tone={p.stock ? "navy" : "outline"}>{p.stock ? t.stock : t.consult}</Badge>
-          <Badge tone="neutral">{t.cats[p.cat]}</Badge>
+    <Card pad={0} style={{ overflow: "hidden", display: "flex", flexDirection: "column" }}>
+      <div style={{ position: "relative", height: 190, overflow: "hidden", background: "var(--mtz-mist)" }}>
+        <img src={IMG + "lines/" + HOME_SRC[i]} alt="" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+      </div>
+      <div style={{ padding: 20, display: "flex", flexDirection: "column", flex: 1 }}>
+        <div style={{ font: "600 10px/1 var(--font-body)", letterSpacing: ".2em", color: "var(--mtz-steel)" }}>{l.lab}</div>
+        <div style={{ font: "300 22px/1.25 var(--font-display)", color: "var(--text-strong)", margin: "10px 0 6px" }}>{l.t}</div>
+        <div style={{ font: "400 12.5px/1.6 var(--font-body)", color: "var(--text-muted)" }}>{l.spec}</div>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginTop: "auto", paddingTop: 18 }}>
+          {l.seal.map((s, k) => <Badge key={s} tone={k === 0 ? "neutral" : "navy"}>{s}</Badge>)}
         </div>
-        <div style={{ font: "500 17px/1.3 var(--font-display)", color: "var(--text-strong)" }}>{p.name}</div>
-        <div style={{ font: "400 12.5px/1.6 var(--font-body)", color: "var(--text-muted)", margin: "6px 0 14px" }}>
-          {p.base} · <Tooltip label={t.gram + p.g}><span style={{ borderBottom: "1px dotted var(--mtz-gray)", cursor: "help" }}>{p.g}</span></Tooltip>
-        </div>
-        <Button variant="outline" size="sm" onClick={onAsk}>{t.ask}</Button>
+        <div style={{ marginTop: 14 }}><Button variant="outline" size="sm" onClick={onAsk}>{t.ask}</Button></div>
       </div>
     </Card>
   );
 }
 
-Object.assign(window, { Home, ProductCard, PRODUCTS });
+Object.assign(window, { Home, LineTeaser, LINE_SRC });

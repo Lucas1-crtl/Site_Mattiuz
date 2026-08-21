@@ -1,4 +1,4 @@
-/* @ds-bundle: {"format":4,"namespace":"MattiuzDesignSystem_ac598e","components":[{"name":"Logo","sourcePath":"components/brand/Logo.jsx"},{"name":"PatternBlock","sourcePath":"components/brand/PatternBlock.jsx"},{"name":"SectionHeader","sourcePath":"components/brand/SectionHeader.jsx"},{"name":"WaveElement","sourcePath":"components/brand/WaveElement.jsx"},{"name":"Badge","sourcePath":"components/display/Badge.jsx"},{"name":"Card","sourcePath":"components/display/Card.jsx"},{"name":"Divider","sourcePath":"components/display/Divider.jsx"},{"name":"Stat","sourcePath":"components/display/Stat.jsx"},{"name":"Tag","sourcePath":"components/display/Tag.jsx"},{"name":"Dialog","sourcePath":"components/feedback/Dialog.jsx"},{"name":"Toast","sourcePath":"components/feedback/Toast.jsx"},{"name":"Tooltip","sourcePath":"components/feedback/Tooltip.jsx"},{"name":"Button","sourcePath":"components/forms/Button.jsx"},{"name":"Checkbox","sourcePath":"components/forms/Checkbox.jsx"},{"name":"Input","sourcePath":"components/forms/Input.jsx"},{"name":"Radio","sourcePath":"components/forms/Radio.jsx"},{"name":"Select","sourcePath":"components/forms/Select.jsx"},{"name":"Switch","sourcePath":"components/forms/Switch.jsx"},{"name":"Tabs","sourcePath":"components/navigation/Tabs.jsx"}],"sourceHashes":{"chrome.jsx":"9b9a30729e16","components/brand/Logo.jsx":"7008770909ad","components/brand/PatternBlock.jsx":"c3da46d0f832","components/brand/SectionHeader.jsx":"2abb4d8146b5","components/brand/WaveElement.jsx":"390bbe046cc0","components/display/Badge.jsx":"f070cea5bf58","components/display/Card.jsx":"fdfdb9e40e38","components/display/Divider.jsx":"38a001cbfe8e","components/display/Stat.jsx":"a8215ba74d1d","components/display/Tag.jsx":"517ece38ac28","components/feedback/Dialog.jsx":"5009c69e721e","components/feedback/Toast.jsx":"39d4213d1b9e","components/feedback/Tooltip.jsx":"a432b7add78b","components/forms/Button.jsx":"5227789e263f","components/forms/Checkbox.jsx":"c301e11940e3","components/forms/Input.jsx":"7f98839cc88d","components/forms/Radio.jsx":"84477febcb9c","components/forms/Select.jsx":"7a8499a1e547","components/forms/Switch.jsx":"8cfb2c99a52b","components/navigation/Tabs.jsx":"7af26ffbf67e","export/mattiuz-site/app.jsx":"9f5f222aa4a8","export/mattiuz-site/chrome.jsx":"0797b05046e3","export/mattiuz-site/contact.jsx":"1098c3528d93","export/mattiuz-site/historia.jsx":"2e89ffbbdb77","export/mattiuz-site/i18n.jsx":"1cc483b3031b","export/mattiuz-site/image-slot.js":"fff26d081c8d","export/mattiuz-site/institucional.jsx":"9954457caf32","export/mattiuz-site/pages.jsx":"4caaf772a4d1","institucional.jsx":"6a94e9f69341","pages.jsx":"5053fb49739c","ui_kits/website/app.jsx":"9f5f222aa4a8","ui_kits/website/chrome.jsx":"c51409ff24b6","ui_kits/website/contact.jsx":"2f8b108f2de2","ui_kits/website/historia.jsx":"2e89ffbbdb77","ui_kits/website/i18n.jsx":"f670551e0760","ui_kits/website/image-slot.js":"fff26d081c8d","ui_kits/website/institucional.jsx":"9954457caf32","ui_kits/website/pages.jsx":"c03a6cc65ed6"},"inlinedExternals":[],"unexposedExports":[]} */
+/* @ds-bundle: {"format":4,"namespace":"MattiuzDesignSystem_ac598e","components":[{"name":"Logo","sourcePath":"components/brand/Logo.jsx"},{"name":"PatternBlock","sourcePath":"components/brand/PatternBlock.jsx"},{"name":"SectionHeader","sourcePath":"components/brand/SectionHeader.jsx"},{"name":"WaveElement","sourcePath":"components/brand/WaveElement.jsx"},{"name":"Badge","sourcePath":"components/display/Badge.jsx"},{"name":"Card","sourcePath":"components/display/Card.jsx"},{"name":"Divider","sourcePath":"components/display/Divider.jsx"},{"name":"Stat","sourcePath":"components/display/Stat.jsx"},{"name":"Tag","sourcePath":"components/display/Tag.jsx"},{"name":"Dialog","sourcePath":"components/feedback/Dialog.jsx"},{"name":"Toast","sourcePath":"components/feedback/Toast.jsx"},{"name":"Tooltip","sourcePath":"components/feedback/Tooltip.jsx"},{"name":"Button","sourcePath":"components/forms/Button.jsx"},{"name":"Checkbox","sourcePath":"components/forms/Checkbox.jsx"},{"name":"Input","sourcePath":"components/forms/Input.jsx"},{"name":"Radio","sourcePath":"components/forms/Radio.jsx"},{"name":"Select","sourcePath":"components/forms/Select.jsx"},{"name":"Switch","sourcePath":"components/forms/Switch.jsx"},{"name":"Tabs","sourcePath":"components/navigation/Tabs.jsx"}],"sourceHashes":{"chrome.jsx":"9b9a30729e16","components/brand/Logo.jsx":"7008770909ad","components/brand/PatternBlock.jsx":"c3da46d0f832","components/brand/SectionHeader.jsx":"2abb4d8146b5","components/brand/WaveElement.jsx":"390bbe046cc0","components/display/Badge.jsx":"f070cea5bf58","components/display/Card.jsx":"fdfdb9e40e38","components/display/Divider.jsx":"38a001cbfe8e","components/display/Stat.jsx":"a8215ba74d1d","components/display/Tag.jsx":"517ece38ac28","components/feedback/Dialog.jsx":"5009c69e721e","components/feedback/Toast.jsx":"39d4213d1b9e","components/feedback/Tooltip.jsx":"a432b7add78b","components/forms/Button.jsx":"5227789e263f","components/forms/Checkbox.jsx":"c301e11940e3","components/forms/Input.jsx":"7f98839cc88d","components/forms/Radio.jsx":"84477febcb9c","components/forms/Select.jsx":"7a8499a1e547","components/forms/Switch.jsx":"8cfb2c99a52b","components/navigation/Tabs.jsx":"7af26ffbf67e","export/mattiuz-site/app.jsx":"9f5f222aa4a8","export/mattiuz-site/chrome.jsx":"9fb34f8402f9","export/mattiuz-site/contact.jsx":"2f8b108f2de2","export/mattiuz-site/historia.jsx":"2e89ffbbdb77","export/mattiuz-site/i18n.jsx":"f670551e0760","export/mattiuz-site/image-slot.js":"fff26d081c8d","export/mattiuz-site/institucional.jsx":"9954457caf32","export/mattiuz-site/pages.jsx":"7cef0c423eb3","institucional.jsx":"6a94e9f69341","pages.jsx":"5053fb49739c","ui_kits/website/app.jsx":"bbcc8a0b50bd","ui_kits/website/chrome.jsx":"d599c281a079","ui_kits/website/contact.jsx":"4747258bbf48","ui_kits/website/historia.jsx":"2e89ffbbdb77","ui_kits/website/i18n.jsx":"c9025fc4a76b","ui_kits/website/image-slot.js":"fff26d081c8d","ui_kits/website/institucional.jsx":"130169e66819","ui_kits/website/pages.jsx":"4e51775cdfc3"},"inlinedExternals":[],"unexposedExports":[]} */
 
 (() => {
 
@@ -1590,7 +1590,7 @@ function Footer({
     }
   }, /*#__PURE__*/React.createElement("div", {
     style: colTitle
-  }, t.foot_contact), /*#__PURE__*/React.createElement("div", null, "comercial@mattiuz.com.br"), /*#__PURE__*/React.createElement("div", null, "+55 47 0000 0000"), /*#__PURE__*/React.createElement("div", {
+  }, t.foot_contact), /*#__PURE__*/React.createElement("div", null, "contato@mattiuz.com.br"), /*#__PURE__*/React.createElement("div", {
     style: {
       font: "600 9.5px/1 var(--font-body)",
       letterSpacing: ".2em",
@@ -1736,7 +1736,96 @@ function Contact({
   const [country, setCountry] = React.useState(t.countries[0]);
   const isBR = country === t.countries[0];
   return /*#__PURE__*/React.createElement("main", {
-    "data-screen-label": "Contato",
+    "data-screen-label": "Contato"
+  }, /*#__PURE__*/React.createElement("section", {
+    style: {
+      background: "var(--mtz-navy)",
+      position: "relative",
+      overflow: "hidden"
+    }
+  }, /*#__PURE__*/React.createElement("img", {
+    src: IMG + "galpao-blumenau.png",
+    alt: "",
+    style: {
+      position: "absolute",
+      inset: 0,
+      width: "100%",
+      height: "100%",
+      objectFit: "cover",
+      objectPosition: "center 55%",
+      filter: "grayscale(1)",
+      opacity: .12,
+      pointerEvents: "none"
+    }
+  }), /*#__PURE__*/React.createElement("div", {
+    style: {
+      position: "absolute",
+      inset: 0,
+      background: "linear-gradient(90deg,color-mix(in srgb,var(--mtz-navy) 92%,transparent) 26%,transparent 75%)",
+      pointerEvents: "none"
+    }
+  }), /*#__PURE__*/React.createElement("div", {
+    style: {
+      maxWidth: "var(--container-max)",
+      margin: "0 auto",
+      padding: "88px 32px 80px",
+      position: "relative"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      font: "600 11px/1 var(--font-body)",
+      letterSpacing: "var(--track-overline)",
+      color: "var(--mtz-steel)",
+      marginBottom: 18,
+      textTransform: "uppercase"
+    }
+  }, t.c_over), /*#__PURE__*/React.createElement("h1", {
+    style: {
+      font: "300 48px/1.15 var(--font-display)",
+      color: "var(--mtz-paper)",
+      margin: 0,
+      maxWidth: 560
+    }
+  }, t.c_t), /*#__PURE__*/React.createElement("p", {
+    style: {
+      font: "400 15px/1.75 var(--font-body)",
+      color: "var(--mtz-gray)",
+      maxWidth: 440,
+      margin: "20px 0 0"
+    }
+  }, t.c_l), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      gap: 40,
+      marginTop: 44,
+      borderTop: "1px solid color-mix(in srgb,var(--mtz-paper) 22%,transparent)",
+      paddingTop: 24
+    }
+  }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      font: "600 9.5px/1 var(--font-body)",
+      letterSpacing: ".24em",
+      color: "var(--mtz-steel)",
+      marginBottom: 8
+    }
+  }, t.foot_hq), /*#__PURE__*/React.createElement("div", {
+    style: {
+      font: "400 13px/1.6 var(--font-body)",
+      color: "var(--mtz-paper)"
+    }
+  }, t.foot_addr)), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      font: "600 9.5px/1 var(--font-body)",
+      letterSpacing: ".24em",
+      color: "var(--mtz-steel)",
+      marginBottom: 8
+    }
+  }, t.foot_contact), /*#__PURE__*/React.createElement("div", {
+    style: {
+      font: "400 13px/1.6 var(--font-body)",
+      color: "var(--mtz-paper)"
+    }
+  }, "contato@mattiuz.com.br"))))), /*#__PURE__*/React.createElement("div", {
     style: {
       maxWidth: "var(--container-max)",
       margin: "0 auto",
@@ -1745,33 +1834,60 @@ function Contact({
       gridTemplateColumns: ".9fr 1.1fr",
       gap: 64
     }
-  }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(SH3, {
-    overline: t.c_over,
-    title: t.c_t,
-    lead: t.c_l
-  }), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
     style: {
-      marginTop: 36,
       display: "grid",
       gap: 18
     }
   }, /*#__PURE__*/React.createElement(Dv3, {
     label: t.c_div
-  }), /*#__PURE__*/React.createElement("p", {
+  }), /*#__PURE__*/React.createElement("div", {
     style: {
-      font: "400 13.5px/1.75 var(--font-body)",
-      color: "var(--text-body)",
-      margin: 0
+      display: "grid",
+      gap: 0,
+      marginTop: 6
     }
-  }, t.c_steps[0], /*#__PURE__*/React.createElement("br", null), t.c_steps[1], /*#__PURE__*/React.createElement("br", null), t.c_steps[2]), /*#__PURE__*/React.createElement("img", {
-    src: IMG + "workwear.png",
-    alt: "Mattiuz",
+  }, t.c_steps.map((s, i) => /*#__PURE__*/React.createElement("div", {
+    key: i,
     style: {
-      width: "100%",
-      display: "block",
-      marginTop: 8
+      display: "grid",
+      gridTemplateColumns: "56px 1fr",
+      gap: 20
     }
-  }))), /*#__PURE__*/React.createElement(Cd3, {
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center"
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      font: "300 30px/1 var(--font-display)",
+      color: "var(--mtz-steel)"
+    }
+  }, "0" + (i + 1)), i < t.c_steps.length - 1 && /*#__PURE__*/React.createElement("span", {
+    style: {
+      flex: 1,
+      width: 1,
+      background: "var(--border-line)",
+      margin: "10px 0"
+    }
+  })), /*#__PURE__*/React.createElement("div", {
+    style: {
+      paddingBottom: i < t.c_steps.length - 1 ? 28 : 0
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      font: "500 16px/1.3 var(--font-display)",
+      color: "var(--text-strong)",
+      marginBottom: 5
+    }
+  }, s[0]), /*#__PURE__*/React.createElement("div", {
+    style: {
+      font: "400 13px/1.7 var(--font-body)",
+      color: "var(--text-muted)"
+    }
+  }, s[1]))))))), /*#__PURE__*/React.createElement(Cd3, {
     pad: 32,
     style: {
       alignSelf: "start"
@@ -1867,7 +1983,7 @@ function Contact({
     fullWidth: true,
     size: "lg",
     onClick: () => setSent(true)
-  }, t.f_send))));
+  }, t.f_send)))));
 }
 Object.assign(window, {
   Portfolio,
@@ -2191,7 +2307,7 @@ const T = {
     fab_bg: "Solte aqui a imagem de engenharia (abstrato geométrico/celular) — vira fundo em transparência",
     stats_over: "Força em números",
     stats_t: "Fabricação com garantia",
-    s1v: "250 km", // editar aqui o número exato.
+    s1v: "250 km",
     s1l: "Capacidade diária",
     s1d: "de produção de entretela",
     s2v: "+40",
@@ -2235,7 +2351,7 @@ const T = {
     c_t: "Fale com a Mattiuz",
     c_l: "Direcionamos sua mensagem ao time certo — comercial, técnico ou institucional.",
     c_div: "Experiência consultiva",
-    c_steps: ["Pré-venda: análise da coleção e testes de fusão.", "Durante: acompanhamento de lote e padronização.", "Pós-venda: suporte de aplicação e reposição garantida."],
+    c_steps: [["Pré-venda", "Análise da coleção e testes de fusão."], ["Durante", "Acompanhamento de lote e padronização."], ["Pós-venda", "Suporte de aplicação e reposição garantida."]],
     f_client: "Você já é cliente Mattiuz?",
     f_yes: "Sim",
     f_no: "Não",
@@ -2281,7 +2397,7 @@ const T = {
     foot_inst: "INSTITUCIONAL",
     foot_contact: "CONTATO",
     foot_hq: "MATRIZ",
-    foot_addr: "89000-000 · Blumenau/SC · Brasil",
+    foot_addr: "89069-004 · Blumenau/SC · Brasil",
     foot_rights: "© 2026 Mattiuz Textil",
     foot_tag: "INOVAÇÃO EM CADA FIBRA",
     inst: {
@@ -2399,7 +2515,7 @@ const T = {
     c_t: "Talk to Mattiuz",
     c_l: "We route your message to the right team — commercial, technical or corporate.",
     c_div: "Consultative experience",
-    c_steps: ["Pre-sale: collection analysis and fusing tests.", "During: batch tracking and standardization.", "After-sale: application support and guaranteed replenishment."],
+    c_steps: [["Pre-sale", "Collection analysis and fusing tests."], ["During", "Batch tracking and standardization."], ["After-sale", "Application support and guaranteed replenishment."]],
     f_client: "Are you already a Mattiuz client?",
     f_yes: "Yes",
     f_no: "No",
@@ -2445,7 +2561,7 @@ const T = {
     foot_inst: "CORPORATE",
     foot_contact: "CONTACT",
     foot_hq: "HEADQUARTERS",
-    foot_addr: "89000-000 · Blumenau/SC · Brazil",
+    foot_addr: "89069-004 · Blumenau/SC · Brazil",
     foot_rights: "© 2026 Mattiuz Textil",
     foot_tag: "INNOVATION IN EVERY FIBER",
     inst: {
@@ -2563,7 +2679,7 @@ const T = {
     c_t: "Parla con Mattiuz",
     c_l: "Indirizziamo il suo messaggio al team giusto — commerciale, tecnico o istituzionale.",
     c_div: "Esperienza consulenziale",
-    c_steps: ["Pre-vendita: analisi della collezione e test di termoadesione.", "Durante: monitoraggio del lotto e standardizzazione.", "Post-vendita: supporto applicativo e riassortimento garantito."],
+    c_steps: [["Pre-vendita", "Analisi della collezione e test di termoadesione."], ["Durante", "Monitoraggio del lotto e standardizzazione."], ["Post-vendita", "Supporto applicativo e riassortimento garantito."]],
     f_client: "È già cliente Mattiuz?",
     f_yes: "Sì",
     f_no: "No",
@@ -2609,7 +2725,7 @@ const T = {
     foot_inst: "ISTITUZIONALE",
     foot_contact: "CONTATTI",
     foot_hq: "SEDE",
-    foot_addr: "89000-000 · Blumenau/SC · Brasile",
+    foot_addr: "89069-004 · Blumenau/SC · Brasile",
     foot_rights: "© 2026 Mattiuz Textil",
     foot_tag: "INNOVAZIONE IN OGNI FIBRA",
     inst: {
@@ -4401,6 +4517,48 @@ const PRODUCTS = [{
   stock: false,
   img: "facade.png"
 }];
+function HeroVideo() {
+  const [i, setI] = React.useState(0);
+  const refs = [React.useRef(null), React.useRef(null)];
+  const srcs = ["assets/video/galpoes-slowmo.mp4", "assets/video/galpoes-slowmo-2.mp4"];
+  React.useEffect(() => {
+    refs.forEach(r => {
+      if (r.current) r.current.playbackRate = 0.5;
+    });
+    const cur = refs[i].current;
+    if (cur) {
+      cur.currentTime = 0;
+      cur.play().catch(() => {});
+    }
+    const nxt = refs[(i + 1) % 2].current;
+    if (nxt) nxt.load();
+  }, [i]);
+  const vidStyle = on => ({
+    position: "absolute",
+    inset: 0,
+    width: "100%",
+    height: "100%",
+    objectFit: "cover",
+    objectPosition: "center 30%",
+    filter: "grayscale(1)",
+    opacity: on ? .5 : 0,
+    transition: "opacity 600ms var(--ease-out)",
+    pointerEvents: "none"
+  });
+  return /*#__PURE__*/React.createElement(React.Fragment, null, srcs.map((s, k) => /*#__PURE__*/React.createElement("video", {
+    key: k,
+    ref: refs[k],
+    muted: true,
+    playsInline: true,
+    preload: "auto",
+    autoPlay: k === 0,
+    onEnded: () => setI((i + 1) % 2),
+    style: vidStyle(k === i)
+  }, /*#__PURE__*/React.createElement("source", {
+    src: s,
+    type: "video/mp4"
+  }))));
+}
 function Home({
   go,
   t
@@ -4413,21 +4571,7 @@ function Home({
       position: "relative",
       overflow: "hidden"
     }
-  }, /*#__PURE__*/React.createElement("img", {
-    src: IMG + "galpao-blumenau.png",
-    alt: "Galp\xE3o Mattiuz \u2014 Blumenau, SC",
-    style: {
-      position: "absolute",
-      inset: 0,
-      width: "100%",
-      height: "100%",
-      objectFit: "cover",
-      objectPosition: "center 30%",
-      filter: "grayscale(1)",
-      opacity: .5,
-      pointerEvents: "none"
-    }
-  }), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement(HeroVideo, null), /*#__PURE__*/React.createElement("div", {
     style: {
       position: "absolute",
       inset: 0,
@@ -5274,6 +5418,10 @@ function App() {
   const [page, setPage] = React.useState("home");
   const [lang, setLang] = React.useState(localStorage.getItem("mtz-lang") || "pt");
   const t = window.T[lang];
+  React.useEffect(() => {
+    document.documentElement.setAttribute("lang", lang === "zh" ? "zh-CN" : lang === "pt" ? "pt-BR" : lang);
+    document.documentElement.dataset.lang = lang;
+  }, [lang]);
   const go = p => {
     setPage(p);
     window.scrollTo(0, 0);
@@ -5295,9 +5443,12 @@ function App() {
     go: go,
     t: t
   }), page === "portfolio" && /*#__PURE__*/React.createElement(Portfolio, {
-    t: t
+    t: t,
+    go: go,
+    key: "p" + lang
   }), page === "contact" && /*#__PURE__*/React.createElement(Contact, {
-    t: t
+    t: t,
+    key: "c" + lang
   }), ["sust", "carr", "etica", "lgpd"].includes(page) && /*#__PURE__*/React.createElement(InstPage, {
     k: page,
     t: t,
@@ -5365,6 +5516,12 @@ function UtilLink({
     }
   }, label);
 }
+const LANG_LABEL = {
+  pt: "PT",
+  en: "EN",
+  it: "IT",
+  zh: "中文"
+};
 function LangSwitch({
   lang,
   setLang
@@ -5375,7 +5532,7 @@ function LangSwitch({
       alignItems: "center",
       gap: 2
     }
-  }, ["pt", "en", "it"].map(l => /*#__PURE__*/React.createElement("button", {
+  }, ["pt", "en", "it", "zh"].map(l => /*#__PURE__*/React.createElement("button", {
     key: l,
     onClick: () => setLang(l),
     style: {
@@ -5384,11 +5541,11 @@ function LangSwitch({
       border: "none",
       cursor: "pointer",
       padding: "4px 7px",
-      font: "600 9px/1 var(--font-body)",
-      letterSpacing: ".12em",
+      font: l === "zh" ? "500 11px/1 var(--font-body)" : "600 9px/1 var(--font-body)",
+      letterSpacing: l === "zh" ? "0" : ".12em",
       transition: "background var(--dur-fast)"
     }
-  }, l.toUpperCase())));
+  }, LANG_LABEL[l])));
 }
 function Header({
   page,
@@ -5630,64 +5787,265 @@ const {
   Checkbox: Cb3,
   Radio: Rd3,
   Card: Cd3,
+  Badge: Bdg3,
   Divider: Dv3,
-  Tabs: Tb3,
   Dialog: Dlg3,
   Toast: Ts3
 } = DS3;
-const CAT_KEYS = ["all", "fus", "malha", "tecido", "nt"];
-function Portfolio({
-  t
+const CONTACT_MAIL = "contato@mattiuz.com.br";
+// Chave de envio (Web3Forms) — cadastre contato@mattiuz.com.br em web3forms.com e cole a chave aqui.
+// Enquanto estiver vazia, o site abre o e-mail no cliente do usuário como plano B.
+const FORM_KEY = "cc9b5778-282c-4c0f-aa7c-7468c84577ba";
+function sendMail(subject, body) {
+  const a = document.createElement("a");
+  a.href = `mailto:${CONTACT_MAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+}
+async function postForm(subject, fields) {
+  const body = Object.entries(fields).map(([k, v]) => `${k}: ${v}`).join("\n");
+  if (FORM_KEY) {
+    try {
+      const r = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json"
+        },
+        body: JSON.stringify({
+          access_key: FORM_KEY,
+          subject,
+          from_name: "Site Mattiuz",
+          replyto: fields.email || CONTACT_MAIL,
+          message: body,
+          ...fields
+        })
+      });
+      if ((await r.json()).success) return true;
+    } catch (e) {/* cai no plano B */}
+  }
+  sendMail(subject, body);
+  return false;
+}
+function LineCard({
+  l,
+  i,
+  t,
+  onAsk
 }) {
-  const [tab, setTab] = React.useState(0);
+  return /*#__PURE__*/React.createElement(Cd3, {
+    pad: 0,
+    style: {
+      display: "grid",
+      gridTemplateColumns: "200px 1fr",
+      overflow: "hidden"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      position: "relative",
+      background: "var(--mtz-mist)",
+      minHeight: 300
+    }
+  }, window.LINE_SRC[i] ? /*#__PURE__*/React.createElement("img", {
+    src: IMG + "lines/" + window.LINE_SRC[i],
+    alt: "",
+    style: {
+      position: "absolute",
+      inset: 0,
+      width: "100%",
+      height: "100%",
+      objectFit: "cover",
+      display: "block"
+    }
+  }) : /*#__PURE__*/React.createElement("image-slot", {
+    id: "mtz-port-line-" + (i + 1),
+    shape: "rect",
+    placeholder: l.img,
+    style: {
+      position: "absolute",
+      inset: 0
+    }
+  })), /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: "26px 28px 24px",
+      display: "flex",
+      flexDirection: "column"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      font: "600 10px/1 var(--font-body)",
+      letterSpacing: ".2em",
+      color: "var(--mtz-steel)"
+    }
+  }, l.lab), /*#__PURE__*/React.createElement("div", {
+    style: {
+      font: "300 27px/1.2 var(--font-display)",
+      color: "var(--text-strong)",
+      margin: "12px 0 8px"
+    }
+  }, l.t), /*#__PURE__*/React.createElement("div", {
+    style: {
+      font: "400 12px/1.6 var(--font-body)",
+      color: "var(--text-muted)",
+      paddingBottom: 14,
+      borderBottom: "var(--line-hair)"
+    }
+  }, l.spec), /*#__PURE__*/React.createElement("p", {
+    style: {
+      font: "400 13.5px/1.75 var(--font-body)",
+      color: "var(--text-body)",
+      margin: "14px 0 0",
+      textWrap: "pretty"
+    }
+  }, l.txt), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      flexWrap: "wrap",
+      gap: 6,
+      marginTop: 16
+    }
+  }, l.apps.split(" · ").map(a => /*#__PURE__*/React.createElement("span", {
+    key: a,
+    style: {
+      font: "400 11.5px/1 var(--font-body)",
+      color: "var(--text-muted)",
+      border: "var(--line-hair)",
+      padding: "6px 10px"
+    }
+  }, a))), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      flexWrap: "wrap",
+      gap: 6,
+      marginTop: "auto",
+      paddingTop: 22
+    }
+  }, l.seal.map((s, k) => /*#__PURE__*/React.createElement(Bdg3, {
+    key: s,
+    tone: k === 0 ? "neutral" : "navy"
+  }, s))), /*#__PURE__*/React.createElement("div", {
+    style: {
+      marginTop: 14
+    }
+  }, /*#__PURE__*/React.createElement(Btn3, {
+    variant: "outline",
+    size: "sm",
+    onClick: onAsk
+  }, t.ask))));
+}
+function Portfolio({
+  t,
+  go
+}) {
   const [ask, setAsk] = React.useState(null);
   const [toast, setToast] = React.useState(false);
-  const items = [t.cat_all, t.cats.fus, t.cats.malha, t.cats.tecido, t.cats.nt];
-  const list = window.PRODUCTS.filter(p => tab === 0 || p.cat === CAT_KEYS[tab]);
+  const [req, setReq] = React.useState({
+    email: "",
+    vol: t.vols[0],
+    cb: true
+  });
+  const [busy, setBusy] = React.useState(false);
+  const openAsk = l => {
+    setReq({
+      email: "",
+      vol: t.vols[0],
+      cb: true
+    });
+    setAsk(l);
+  };
+  const submitAsk = async () => {
+    const l = ask;
+    setBusy(true);
+    await postForm(t.dlg_t + l.t, {
+      [t.dlg_email]: req.email,
+      [t.dlg_vol]: req.vol,
+      [t.dlg_cb]: req.cb ? t.f_yes : t.f_no,
+      [t.prod_over]: `${l.lab} · ${l.t} — ${l.spec}`
+    });
+    setBusy(false);
+    setAsk(null);
+    setToast(true);
+  };
   return /*#__PURE__*/React.createElement("main", {
-    "data-screen-label": "Portf\xF3lio",
+    "data-screen-label": "Portf\xF3lio"
+  }, /*#__PURE__*/React.createElement("div", {
     style: {
       maxWidth: "var(--container-max)",
       margin: "0 auto",
       padding: "64px 32px 88px"
     }
   }, /*#__PURE__*/React.createElement(SH3, {
-    overline: t.prod_over,
-    title: "Plusupper",
+    overline: t.port_over,
+    title: t.port_t,
     lead: t.port_l
   }), /*#__PURE__*/React.createElement("div", {
     style: {
-      marginTop: 36
+      display: "grid",
+      gridTemplateColumns: "repeat(4,1fr)",
+      borderTop: "var(--line-hair)",
+      borderBottom: "var(--line-hair)",
+      marginTop: 44
     }
-  }, /*#__PURE__*/React.createElement(Tb3, {
-    items: items,
-    active: tab,
-    onChange: setTab
-  })), /*#__PURE__*/React.createElement("div", {
+  }, t.port_nums.split(" · ").map((n, i) => /*#__PURE__*/React.createElement("div", {
+    key: i,
+    style: {
+      padding: "20px 24px",
+      borderLeft: i ? "var(--line-hair)" : "none",
+      font: "300 16px/1.4 var(--font-display)",
+      color: "var(--text-strong)"
+    }
+  }, n))), /*#__PURE__*/React.createElement("div", {
     style: {
       display: "grid",
-      gridTemplateColumns: "repeat(3,1fr)",
+      gridTemplateColumns: "1fr 1fr",
       gap: 14,
-      marginTop: 28
+      marginTop: 40
     }
-  }, list.map(p => /*#__PURE__*/React.createElement(ProductCard, {
-    key: p.name,
-    p: p,
+  }, t.lines.map((l, i) => /*#__PURE__*/React.createElement(LineCard, {
+    key: l.t,
+    l: l,
+    i: i,
     t: t,
-    onAsk: () => setAsk(p)
-  }))), /*#__PURE__*/React.createElement(Dlg3, {
+    onAsk: () => openAsk(l)
+  })))), /*#__PURE__*/React.createElement("section", {
+    style: {
+      background: "var(--mtz-navy)"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      maxWidth: 640,
+      margin: "0 auto",
+      padding: "72px 32px",
+      textAlign: "center"
+    }
+  }, /*#__PURE__*/React.createElement("h2", {
+    style: {
+      font: "300 32px/1.25 var(--font-display)",
+      color: "var(--mtz-paper)",
+      margin: "0 0 14px"
+    }
+  }, t.port_foot_t), /*#__PURE__*/React.createElement("p", {
+    style: {
+      font: "400 14.5px/1.75 var(--font-body)",
+      color: "var(--mtz-gray)",
+      margin: "0 0 30px"
+    }
+  }, t.port_foot_p), /*#__PURE__*/React.createElement(Btn3, {
+    variant: "inverse",
+    size: "lg",
+    onClick: () => go("contact")
+  }, t.port_foot_b))), /*#__PURE__*/React.createElement(Dlg3, {
     open: !!ask,
     onClose: () => setAsk(null),
-    title: t.dlg_t + (ask ? ask.name : ""),
+    title: t.dlg_t + (ask ? ask.t : ""),
     actions: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Btn3, {
       variant: "ghost",
       onClick: () => setAsk(null)
     }, t.cancel), /*#__PURE__*/React.createElement(Btn3, {
-      onClick: () => {
-        setAsk(null);
-        setToast(true);
-      }
-    }, t.send_req))
+      onClick: submitAsk,
+      disabled: busy
+    }, busy ? t.f_sending : t.send_req))
   }, /*#__PURE__*/React.createElement("div", {
     style: {
       display: "grid",
@@ -5695,13 +6053,28 @@ function Portfolio({
     }
   }, /*#__PURE__*/React.createElement(In3, {
     label: t.dlg_email,
-    placeholder: t.f_email_ph
+    placeholder: t.f_email_ph,
+    type: "email",
+    value: req.email,
+    onChange: e => setReq({
+      ...req,
+      email: e.target.value
+    })
   }), /*#__PURE__*/React.createElement(Sel3, {
     label: t.dlg_vol,
-    options: t.vols
+    options: t.vols,
+    value: req.vol,
+    onChange: e => setReq({
+      ...req,
+      vol: e.target.value
+    })
   }), /*#__PURE__*/React.createElement(Cb3, {
     label: t.dlg_cb,
-    defaultChecked: true
+    checked: req.cb,
+    onChange: c => setReq({
+      ...req,
+      cb: c
+    })
   }))), /*#__PURE__*/React.createElement(Ts3, {
     visible: toast,
     message: t.toast_ok,
@@ -5732,8 +6105,38 @@ function Contact({
   t
 }) {
   const [sent, setSent] = React.useState(false);
+  const [busy, setBusy] = React.useState(false);
   const [country, setCountry] = React.useState(t.countries[0]);
+  const [v, setV] = React.useState({
+    client: t.f_no,
+    reason: t.reasons[0],
+    subject: "",
+    name: "",
+    email: "",
+    doc: "",
+    phone: "",
+    msg: ""
+  });
   const isBR = country === t.countries[0];
+  const set = k => e => setV({
+    ...v,
+    [k]: e && e.target ? e.target.value : e
+  });
+  const submit = async () => {
+    setBusy(true);
+    await postForm(v.subject.trim() || `${t.c_over} — ${v.reason}`, {
+      [t.f_client]: v.client,
+      [t.f_country]: country,
+      [t.f_reason]: v.reason,
+      [t.f_fullname]: v.name,
+      email: v.email,
+      [isBR ? t.f_doc_br : t.f_doc_intl]: v.doc,
+      [t.f_phone]: v.phone,
+      [t.f_msg]: v.msg
+    });
+    setBusy(false);
+    setSent(true);
+  };
   return /*#__PURE__*/React.createElement("main", {
     "data-screen-label": "Contato"
   }, /*#__PURE__*/React.createElement("section", {
@@ -5921,7 +6324,8 @@ function Contact({
   }, /*#__PURE__*/React.createElement(Rd3, {
     direction: "row",
     options: [t.f_yes, t.f_no],
-    defaultValue: t.f_no
+    value: v.client,
+    onChange: set("client")
   })), /*#__PURE__*/React.createElement("div", {
     style: {
       display: "grid",
@@ -5935,10 +6339,14 @@ function Contact({
     onChange: e => setCountry(e.target.value)
   }), /*#__PURE__*/React.createElement(Sel3, {
     label: t.f_reason,
-    options: t.reasons
+    options: t.reasons,
+    value: v.reason,
+    onChange: set("reason")
   })), /*#__PURE__*/React.createElement(In3, {
     label: t.f_subject,
-    placeholder: t.f_subject_ph
+    placeholder: t.f_subject_ph,
+    value: v.subject,
+    onChange: set("subject")
   }), /*#__PURE__*/React.createElement("div", {
     style: {
       display: "grid",
@@ -5947,10 +6355,15 @@ function Contact({
     }
   }, /*#__PURE__*/React.createElement(In3, {
     label: t.f_fullname,
-    placeholder: t.f_fullname_ph
+    placeholder: t.f_fullname_ph,
+    value: v.name,
+    onChange: set("name")
   }), /*#__PURE__*/React.createElement(In3, {
     label: t.f_email,
-    placeholder: t.f_email_ph
+    placeholder: t.f_email_ph,
+    type: "email",
+    value: v.email,
+    onChange: set("email")
   })), /*#__PURE__*/React.createElement("div", {
     style: {
       display: "grid",
@@ -5959,15 +6372,21 @@ function Contact({
     }
   }, /*#__PURE__*/React.createElement(In3, {
     label: isBR ? t.f_doc_br : t.f_doc_intl,
-    placeholder: t.f_doc_ph
+    placeholder: t.f_doc_ph,
+    value: v.doc,
+    onChange: set("doc")
   }), /*#__PURE__*/React.createElement(In3, {
     label: t.f_phone,
-    placeholder: t.f_phone_ph
+    placeholder: t.f_phone_ph,
+    value: v.phone,
+    onChange: set("phone")
   })), /*#__PURE__*/React.createElement(Labeled, {
     label: t.f_msg
   }, /*#__PURE__*/React.createElement("textarea", {
     placeholder: t.f_msg_ph,
     rows: 4,
+    value: v.msg,
+    onChange: set("msg"),
     style: {
       padding: "12px 14px",
       font: "400 14px/1.5 var(--font-body)",
@@ -5981,8 +6400,9 @@ function Contact({
   })), /*#__PURE__*/React.createElement(Btn3, {
     fullWidth: true,
     size: "lg",
-    onClick: () => setSent(true)
-  }, t.f_send)))));
+    onClick: submit,
+    disabled: busy
+  }, busy ? t.f_sending : t.f_send)))));
 }
 Object.assign(window, {
   Portfolio,
@@ -6306,7 +6726,7 @@ const T = {
     fab_bg: "Solte aqui a imagem de engenharia (abstrato geométrico/celular) — vira fundo em transparência",
     stats_over: "Força em números",
     stats_t: "Fabricação com garantia",
-    s1v: "250 km",
+    s1v: "250 rolos",
     s1l: "Capacidade diária",
     s1d: "de produção de entretela",
     s2v: "+40",
@@ -6337,7 +6757,66 @@ const T = {
       nt: "Não tecido"
     },
     cat_all: "Todas",
-    port_l: "Consultores dedicados especificam com sua equipe o material certo para cada coleção e maquinário.",
+    bases: {
+      pes: "100% poliéster",
+      cot: "100% algodão"
+    },
+    port_over: "PORTFÓLIO COMPLETO",
+    port_t: "Nossas tecnologias",
+    port_l: "Seis linhas de entretela termocolante para camisaria, alfaiataria e moda estruturada. Da vista mais leve ao colarinho de maior corpo.",
+    port_nums: "41 referências · 6 linhas · de 14 a 225 g/m² · larguras de 6 mm a 1,50 m",
+    lines: [{
+      lab: "TECIDO",
+      t: "Woven Line",
+      spec: "31 a 225 g/m² · algodão e poliéster · 1,10 e 1,50 m",
+      txt: "Base tecida com estabilidade dimensional e toque natural. É a linha da camisaria fina e da alfaiataria: colarinho que mantém a forma lavagem após lavagem.",
+      apps: "Camisaria · Alfaiataria · Uniforme",
+      seal: ["13 referências", "PRONTA-ENTREGA"],
+      img: "Rolo de entretela de algodão em close, textura da trama visível."
+    }, {
+      lab: "MALHA",
+      t: "Knitted Line",
+      spec: "41 a 64 g/m² · 100% poliéster · 1,50 m",
+      txt: "Base de malha que acompanha o estiramento do tecido. Para malharia e para peças que precisam ceder sem perder a forma.",
+      apps: "Malharia · Jeanswear · Camisaria leve",
+      seal: ["3 referências", "PRONTA-ENTREGA"],
+      img: "Detalhe de malha sendo esticada entre as mãos."
+    }, {
+      lab: "FUSÍVEL",
+      t: "Non-Woven Line",
+      spec: "28 a 118 g/m² · 100% poliéster · 0,60 e 1,50 m",
+      txt: "Não tecido termocolante do ultraleve ao volumoso de colarinho — a maior amplitude de gramatura do portfólio.",
+      apps: "Camisaria · Vista e bolso · Base de colarinho",
+      seal: ["12 referências", "PRONTA-ENTREGA"],
+      img: "Sequência de amostras da mais leve à mais firme, lado a lado."
+    }, {
+      lab: "DUPLA FACE",
+      t: "Bonding Line",
+      spec: "14 a 40 g/m² · poliamida e poliéster · 0,75 e 1,50 m",
+      txt: "Colagem sem costura: web em poliamida para bainha e dupla face em rolo largo para laminação.",
+      apps: "Bainha · Laminação · Acabamento",
+      seal: ["4 referências"],
+      img: "Bainha sendo prensada, sem linha aparente."
+    }, {
+      lab: "ESPECIAL",
+      t: "Specialty Line",
+      spec: "Elástica, bi-stretch e rasga-fácil",
+      txt: "O que resolve o caso que a linha padrão não cobre: peça com elastano, bordado e bases volumosas.",
+      apps: "Peça com elastano · Bordado · Nicho",
+      seal: ["4 referências"],
+      img: "Tecido com elastano sendo distendido, entretela acompanhando."
+    }, {
+      lab: "FITA",
+      t: "Narrow Line",
+      spec: "6 mm a 17,5 cm de largura · cortadas sob medida",
+      txt: "Reforço e acabamento em tira, cortados na largura que a peça pede.",
+      apps: "Reforço de costura · Bainha · Vista",
+      seal: ["5 referências"],
+      img: "Rolos de fita estreita alinhados, escala de larguras visível."
+    }],
+    port_foot_t: "Qual linha para a sua peça?",
+    port_foot_p: "Nossos consultores fazem a seleção junto com o seu time técnico e enviam amostra para teste de aplicação.",
+    port_foot_b: "Falar com um consultor",
     dlg_t: "Solicitar amostra — ",
     dlg_email: "E-mail comercial",
     dlg_vol: "Volume mensal estimado",
@@ -6345,7 +6824,7 @@ const T = {
     dlg_cb: "Desejo acompanhamento técnico na aplicação",
     cancel: "Cancelar",
     send_req: "Enviar solicitação",
-    toast_ok: "Amostra solicitada. Nossa equipe técnica retorna em 1 dia útil.",
+    toast_ok: "Solicitação enviada para contato@mattiuz.com.br. Nossa equipe técnica retorna em 1 dia útil.",
     c_over: "Contato",
     c_t: "Fale com a Mattiuz",
     c_l: "Direcionamos sua mensagem ao time certo — comercial, técnico ou institucional.",
@@ -6372,8 +6851,9 @@ const T = {
     f_msg: "Deixe sua mensagem",
     f_msg_ph: "Escreva sua mensagem",
     f_send: "Enviar",
+    f_sending: "Enviando…",
     sent_t: "Recebido.",
-    sent_p: "Retornamos em até 1 dia útil.",
+    sent_p: "Sua mensagem chegou em contato@mattiuz.com.br. Retornamos em até 1 dia útil.",
     sent_again: "Nova mensagem",
     h_over: "Nossa história",
     h_t: "Herança italiana, tecida no Brasil",
@@ -6403,14 +6883,8 @@ const T = {
       sust: {
         t: "Sustentabilidade",
         p1: "Operamos com processos auditados, eficiência de água e energia e rastreabilidade de insumos em toda a cadeia — do fornecedor de base ao rolo entregue.",
-        eco_t: "Produtos ecofriendly",
-        eco_p: "Linhas desenvolvidas para reduzir o impacto da confecção — bases recicladas, adesivos de base biológica e processos de baixa emissão.",
-        eco: [["Plusupper Eco R", "Base reciclada pós-consumo"], ["Plusupper Bio", "Adesivo de base biológica"], ["Plusupper Zero", "Processo de baixa emissão"]],
-        rep_t: "Relatórios de sustentabilidade",
-        reports: ["Relatório de Sustentabilidade 2025", "Relatório de Sustentabilidade 2024", "Inventário de Emissões 2025"],
-        pol_t: "Políticas e certificações",
-        policies: ["Política de Sustentabilidade", "Política de Diversidade, Equidade e Inclusão"],
-        isos: ["ISO 9001", "ISO 14001"],
+        cert_over: "CERTIFICAÇÃO",
+        cert_p: "Nossas fábricas e parceiros trabalham com o OEKO-TEX STANDARD 100.",
         mail: "sustentabilidade@mattiuz.com.br"
       },
       carr: {
@@ -6424,8 +6898,6 @@ const T = {
         p1: "O Programa de Integridade da Mattiuz promove a ética, a integridade e a transparência em nossos negócios. Cumprimos as leis, regulamentos e políticas aplicáveis à nossa operação.",
         pillars_t: "Estrutura do programa",
         pillars: ["Compromisso e apoio da alta direção", "Gestão de risco de conformidade", "Formação e sensibilização", "Políticas e controles", "Código e Canal de Ética", "Continuidade e sustentabilidade"],
-        code_t: "Código de Ética e Conduta",
-        code_p: "À disposição de todos os públicos — profissionais, clientes, fornecedores e comunidade. Seu propósito é ser um guia, ajudando em momentos de dúvida.",
         comm_t: "Comitê de Ética e Conformidade",
         comm_p: "Avalia a elaboração, implantação e adequação do Programa de Integridade, com caráter consultivo, e supervisiona o programa e a equipe de conformidade.",
         canal_t: "Canal de Ética",
@@ -6439,7 +6911,6 @@ const T = {
         t: "LGPD — Privacidade de Dados",
         p1: "Tratamos dados pessoais em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018), com transparência sobre finalidade, retenção e compartilhamento.",
         facts: [["Dados que tratamos", "Dados cadastrais e de contato de clientes, fornecedores e candidatos — somente o necessário para cada finalidade."], ["Seus direitos", "Confirmação, acesso, correção, portabilidade, eliminação e revogação de consentimento, a qualquer momento."], ["Segurança", "Controles técnicos e organizacionais de acesso, registro e retenção."], ["Encarregado (DPO)", "Canal dedicado para solicitações de titulares e autoridades."]],
-        doc: "Política de Privacidade",
         mail: "dpo@mattiuz.com.br"
       }
     }
@@ -6470,7 +6941,7 @@ const T = {
     fab_bg: "Drop the engineering image here (geometric/cellular abstract) — becomes a translucent background",
     stats_over: "Strength in numbers",
     stats_t: "Manufacturing, guaranteed",
-    s1v: "250 km",
+    s1v: "250 rolls",
     s1l: "Daily capacity",
     s1d: "of interlining production",
     s2v: "+40",
@@ -6501,7 +6972,66 @@ const T = {
       nt: "Non-woven"
     },
     cat_all: "All",
-    port_l: "Dedicated consultants specify with your team the right material for each collection and machinery.",
+    bases: {
+      pes: "100% polyester",
+      cot: "100% cotton"
+    },
+    port_over: "FULL PORTFOLIO",
+    port_t: "Our technologies",
+    port_l: "Six lines of fusible interlining for shirting, tailoring and structured fashion. From the lightest facing to the fullest-bodied collar.",
+    port_nums: "41 references · 6 lines · from 14 to 225 g/m² · widths from 6 mm to 1.50 m",
+    lines: [{
+      lab: "WOVEN",
+      t: "Woven Line",
+      spec: "31 to 225 g/m² · cotton and polyester · 1.10 and 1.50 m",
+      txt: "A woven base with dimensional stability and a natural hand. This is the line for fine shirting and tailoring: a collar that holds its shape wash after wash.",
+      apps: "Shirting · Tailoring · Uniform",
+      seal: ["13 references", "READY STOCK"],
+      img: "Close-up of a cotton interlining roll, weave texture visible."
+    }, {
+      lab: "KNIT",
+      t: "Knitted Line",
+      spec: "41 to 64 g/m² · 100% polyester · 1.50 m",
+      txt: "A knitted base that follows the fabric's stretch. For knitwear and for garments that must give without losing shape.",
+      apps: "Knitwear · Jeanswear · Light shirting",
+      seal: ["3 references", "READY STOCK"],
+      img: "Detail of knit being stretched between two hands."
+    }, {
+      lab: "FUSIBLE",
+      t: "Non-Woven Line",
+      spec: "28 to 118 g/m² · 100% polyester · 0.60 and 1.50 m",
+      txt: "Fusible non-woven from ultralight to the full body of a collar — the widest weight range in the portfolio.",
+      apps: "Shirting · Facing and pocket · Collar base",
+      seal: ["12 references", "READY STOCK"],
+      img: "Sequence of samples from lightest to firmest, side by side."
+    }, {
+      lab: "DOUBLE-SIDED",
+      t: "Bonding Line",
+      spec: "14 to 40 g/m² · polyamide and polyester · 0.75 and 1.50 m",
+      txt: "Bonding without stitching: polyamide web for hems and double-sided film in wide rolls for lamination.",
+      apps: "Hem · Lamination · Finishing",
+      seal: ["4 references"],
+      img: "A hem being pressed, no visible stitching."
+    }, {
+      lab: "SPECIALTY",
+      t: "Specialty Line",
+      spec: "Elastic, bi-stretch and easy-tear",
+      txt: "What solves the case the standard line does not cover: garments with elastane, embroidery and high-bulk bases.",
+      apps: "Elastane garments · Embroidery · Niche",
+      seal: ["4 references"],
+      img: "Elastane fabric being stretched, interlining following it."
+    }, {
+      lab: "TAPE",
+      t: "Narrow Line",
+      spec: "6 mm to 17.5 cm wide · cut to measure",
+      txt: "Reinforcement and finishing in strip form, cut to the width the garment calls for.",
+      apps: "Seam reinforcement · Hem · Facing",
+      seal: ["5 references"],
+      img: "Narrow tape rolls aligned, the range of widths visible."
+    }],
+    port_foot_t: "Which line for your garment?",
+    port_foot_p: "Our consultants make the selection together with your technical team and send a sample for application testing.",
+    port_foot_b: "Talk to a consultant",
     dlg_t: "Request sample — ",
     dlg_email: "Business e-mail",
     dlg_vol: "Estimated monthly volume",
@@ -6509,7 +7039,7 @@ const T = {
     dlg_cb: "I want technical support during application",
     cancel: "Cancel",
     send_req: "Send request",
-    toast_ok: "Sample requested. Our technical team replies within 1 business day.",
+    toast_ok: "Request sent to contato@mattiuz.com.br. Our technical team replies within 1 business day.",
     c_over: "Contact",
     c_t: "Talk to Mattiuz",
     c_l: "We route your message to the right team — commercial, technical or corporate.",
@@ -6536,8 +7066,9 @@ const T = {
     f_msg: "Leave your message",
     f_msg_ph: "Write your message",
     f_send: "Send",
+    f_sending: "Sending…",
     sent_t: "Received.",
-    sent_p: "We reply within 1 business day.",
+    sent_p: "Your message reached contato@mattiuz.com.br. We reply within 1 business day.",
     sent_again: "New message",
     h_over: "Our history",
     h_t: "Italian heritage, woven in Brazil",
@@ -6567,14 +7098,8 @@ const T = {
       sust: {
         t: "Sustainability",
         p1: "We operate with audited processes, water and energy efficiency and input traceability across the chain — from base supplier to delivered roll.",
-        eco_t: "Ecofriendly products",
-        eco_p: "Lines developed to reduce apparel's footprint — recycled bases, bio-based adhesives and low-emission processes.",
-        eco: [["Plusupper Eco R", "Post-consumer recycled base"], ["Plusupper Bio", "Bio-based adhesive"], ["Plusupper Zero", "Low-emission process"]],
-        rep_t: "Sustainability reports",
-        reports: ["Sustainability Report 2025", "Sustainability Report 2024", "Emissions Inventory 2025"],
-        pol_t: "Policies & certifications",
-        policies: ["Sustainability Policy", "Diversity, Equity & Inclusion Policy"],
-        isos: ["ISO 9001", "ISO 14001"],
+        cert_over: "CERTIFICATION",
+        cert_p: "Our factories and partners work with OEKO-TEX STANDARD 100.",
         mail: "sustentabilidade@mattiuz.com.br"
       },
       carr: {
@@ -6588,8 +7113,6 @@ const T = {
         p1: "Mattiuz's Integrity Program promotes ethics, integrity and transparency in our business. We comply with the laws, regulations and policies applicable to our operation.",
         pillars_t: "Program structure",
         pillars: ["Commitment and support from senior leadership", "Compliance risk management", "Training and awareness", "Policies and controls", "Code and Ethics Line", "Continuity and sustainability"],
-        code_t: "Code of Ethics and Conduct",
-        code_p: "Available to all audiences — professionals, clients, suppliers and the community. Its purpose is to be a guide, helping in moments of doubt.",
         comm_t: "Ethics and Compliance Committee",
         comm_p: "Evaluates the design, implementation and adequacy of the Integrity Program, in an advisory capacity, and oversees the program and the compliance team.",
         canal_t: "Ethics Line",
@@ -6603,7 +7126,6 @@ const T = {
         t: "Privacy (LGPD)",
         p1: "We process personal data in accordance with Brazil's General Data Protection Law (LGPD, Law 13,709/2018), with transparency about purpose, retention and sharing.",
         facts: [["Data we process", "Registration and contact data of clients, suppliers and candidates — only what each purpose requires."], ["Your rights", "Confirmation, access, correction, portability, deletion and consent withdrawal, at any time."], ["Security", "Technical and organizational controls for access, logging and retention."], ["Data Protection Officer", "A dedicated channel for data-subject and authority requests."]],
-        doc: "Privacy Policy",
         mail: "dpo@mattiuz.com.br"
       }
     }
@@ -6634,7 +7156,7 @@ const T = {
     fab_bg: "Trascini qui l'immagine di ingegneria (astratto geometrico/cellulare) — diventa sfondo in trasparenza",
     stats_over: "La forza dei numeri",
     stats_t: "Produzione garantita",
-    s1v: "250 km",
+    s1v: "250 rotoli",
     s1l: "Capacità giornaliera",
     s1d: "di produzione di interfodera",
     s2v: "+40",
@@ -6665,7 +7187,66 @@ const T = {
       nt: "Non tessuto"
     },
     cat_all: "Tutte",
-    port_l: "Consulenti dedicati specificano con il vostro team il materiale giusto per ogni collezione e macchinario.",
+    bases: {
+      pes: "100% poliestere",
+      cot: "100% cotone"
+    },
+    port_over: "PORTFOLIO COMPLETO",
+    port_t: "Le nostre tecnologie",
+    port_l: "Sei linee di interfodera termoadesiva per camiceria, sartoria e moda strutturata. Dal rinforzo più leggero al collo di maggior corpo.",
+    port_nums: "41 referenze · 6 linee · da 14 a 225 g/m² · altezze da 6 mm a 1,50 m",
+    lines: [{
+      lab: "TESSUTO",
+      t: "Woven Line",
+      spec: "31 a 225 g/m² · cotone e poliestere · 1,10 e 1,50 m",
+      txt: "Base tessuta con stabilità dimensionale e mano naturale. È la linea della camiceria fine e della sartoria: un collo che mantiene la forma lavaggio dopo lavaggio.",
+      apps: "Camiceria · Sartoria · Divise",
+      seal: ["13 referenze", "PRONTA CONSEGNA"],
+      img: "Rotolo di interfodera in cotone in primo piano, trama visibile."
+    }, {
+      lab: "MAGLIA",
+      t: "Knitted Line",
+      spec: "41 a 64 g/m² · 100% poliestere · 1,50 m",
+      txt: "Base in maglia che segue l'elasticità del tessuto. Per la maglieria e per i capi che devono cedere senza perdere la forma.",
+      apps: "Maglieria · Jeanswear · Camiceria leggera",
+      seal: ["3 referenze", "PRONTA CONSEGNA"],
+      img: "Dettaglio di maglia tesa tra le mani."
+    }, {
+      lab: "TERMOADESIVA",
+      t: "Non-Woven Line",
+      spec: "28 a 118 g/m² · 100% poliestere · 0,60 e 1,50 m",
+      txt: "Non tessuto termoadesivo dall'ultraleggero al voluminoso da collo — la maggiore ampiezza di grammatura del portfolio.",
+      apps: "Camiceria · Rinforzo e tasca · Base collo",
+      seal: ["12 referenze", "PRONTA CONSEGNA"],
+      img: "Sequenza di campioni dal più leggero al più rigido, affiancati."
+    }, {
+      lab: "DOPPIO ADESIVO",
+      t: "Bonding Line",
+      spec: "14 a 40 g/m² · poliammide e poliestere · 0,75 e 1,50 m",
+      txt: "Incollaggio senza cucitura: rete in poliammide per l'orlo e doppio adesivo in rotolo alto per la laminazione.",
+      apps: "Orlo · Laminazione · Finissaggio",
+      seal: ["4 referenze"],
+      img: "Orlo in fase di pressatura, senza cucitura visibile."
+    }, {
+      lab: "SPECIALE",
+      t: "Specialty Line",
+      spec: "Elastica, bi-stretch e strappo facile",
+      txt: "Ciò che risolve il caso che la linea standard non copre: capo con elastan, ricamo e basi voluminose.",
+      apps: "Capo con elastan · Ricamo · Nicchia",
+      seal: ["4 referenze"],
+      img: "Tessuto con elastan disteso, interfodera che segue."
+    }, {
+      lab: "NASTRO",
+      t: "Narrow Line",
+      spec: "da 6 mm a 17,5 cm di altezza · tagliati su misura",
+      txt: "Rinforzo e finitura in nastro, tagliati nell'altezza che il capo richiede.",
+      apps: "Rinforzo di cucitura · Orlo · Rinforzo",
+      seal: ["5 referenze"],
+      img: "Rotoli di nastro stretto allineati, scala delle altezze visibile."
+    }],
+    port_foot_t: "Quale linea per il vostro capo?",
+    port_foot_p: "I nostri consulenti effettuano la selezione insieme al vostro team tecnico e inviano un campione per il test di applicazione.",
+    port_foot_b: "Parla con un consulente",
     dlg_t: "Richiedi campione — ",
     dlg_email: "E-mail aziendale",
     dlg_vol: "Volume mensile stimato",
@@ -6673,7 +7254,7 @@ const T = {
     dlg_cb: "Desidero supporto tecnico in applicazione",
     cancel: "Annulla",
     send_req: "Invia richiesta",
-    toast_ok: "Campione richiesto. Il nostro team tecnico risponde entro 1 giorno lavorativo.",
+    toast_ok: "Richiesta inviata a contato@mattiuz.com.br. Il nostro team tecnico risponde entro 1 giorno lavorativo.",
     c_over: "Contatti",
     c_t: "Parla con Mattiuz",
     c_l: "Indirizziamo il suo messaggio al team giusto — commerciale, tecnico o istituzionale.",
@@ -6700,8 +7281,9 @@ const T = {
     f_msg: "Lasci il suo messaggio",
     f_msg_ph: "Scriva il suo messaggio",
     f_send: "Invia",
+    f_sending: "Invio in corso…",
     sent_t: "Ricevuto.",
-    sent_p: "Rispondiamo entro 1 giorno lavorativo.",
+    sent_p: "Il suo messaggio è arrivato a contato@mattiuz.com.br. Rispondiamo entro 1 giorno lavorativo.",
     sent_again: "Nuovo messaggio",
     h_over: "La nostra storia",
     h_t: "Eredità italiana, tessuta in Brasile",
@@ -6731,14 +7313,8 @@ const T = {
       sust: {
         t: "Sostenibilità",
         p1: "Operiamo con processi certificati, efficienza idrica ed energetica e tracciabilità dei materiali lungo tutta la filiera — dal fornitore di base al rotolo consegnato.",
-        eco_t: "Prodotti ecofriendly",
-        eco_p: "Linee sviluppate per ridurre l'impatto della confezione — basi riciclate, adesivi di origine biologica e processi a basse emissioni.",
-        eco: [["Plusupper Eco R", "Base riciclata post-consumo"], ["Plusupper Bio", "Adesivo di origine biologica"], ["Plusupper Zero", "Processo a basse emissioni"]],
-        rep_t: "Report di sostenibilità",
-        reports: ["Report di Sostenibilità 2025", "Report di Sostenibilità 2024", "Inventario delle Emissioni 2025"],
-        pol_t: "Politiche e certificazioni",
-        policies: ["Politica di Sostenibilità", "Politica di Diversità, Equità e Inclusione"],
-        isos: ["ISO 9001", "ISO 14001"],
+        cert_over: "CERTIFICAZIONE",
+        cert_p: "I nostri stabilimenti e partner lavorano con OEKO-TEX STANDARD 100.",
         mail: "sustentabilidade@mattiuz.com.br"
       },
       carr: {
@@ -6752,8 +7328,6 @@ const T = {
         p1: "Il Programma di Integrità di Mattiuz promuove l'etica, l'integrità e la trasparenza nei nostri affari. Rispettiamo le leggi, i regolamenti e le politiche applicabili alla nostra operazione.",
         pillars_t: "Struttura del programma",
         pillars: ["Impegno e sostegno dell'alta direzione", "Gestione del rischio di conformità", "Formazione e sensibilizzazione", "Politiche e controlli", "Codice e Canale Etico", "Continuità e sostenibilità"],
-        code_t: "Codice di Etica e Condotta",
-        code_p: "A disposizione di tutti i pubblici — professionisti, clienti, fornitori e comunità. Il suo scopo è essere una guida, aiutando nei momenti di dubbio.",
         comm_t: "Comitato di Etica e Conformità",
         comm_p: "Valuta l'elaborazione, l'attuazione e l'adeguatezza del Programma di Integrità, con carattere consultivo, e supervisiona il programma e il team di conformità.",
         canal_t: "Canale Etico",
@@ -6767,7 +7341,221 @@ const T = {
         t: "Privacy (LGPD)",
         p1: "Trattiamo i dati personali in conformità con la Legge Generale brasiliana sulla Protezione dei Dati (LGPD, Legge 13.709/2018), con trasparenza su finalità, conservazione e condivisione.",
         facts: [["Dati trattati", "Dati anagrafici e di contatto di clienti, fornitori e candidati — solo quanto necessario per ogni finalità."], ["I suoi diritti", "Conferma, accesso, correzione, portabilità, cancellazione e revoca del consenso, in qualsiasi momento."], ["Sicurezza", "Controlli tecnici e organizzativi di accesso, registrazione e conservazione."], ["Responsabile (DPO)", "Canale dedicato alle richieste degli interessati e delle autorità."]],
-        doc: "Politica sulla Privacy",
+        mail: "dpo@mattiuz.com.br"
+      }
+    }
+  },
+  zh: {
+    nav_home: "首页",
+    nav_hist: "我们的历史",
+    nav_port: "产品系列",
+    nav_contact: "联系我们",
+    nav_cta: "了解解决方案",
+    u_sust: "可持续发展",
+    u_carr: "招贤纳士",
+    u_etica: "合规举报渠道",
+    u_lgpd: "隐私保护",
+    hero_over: "PERFORMANCE MATERIALS",
+    hero_h1a: "创新",
+    hero_h1b: "融于每一根纤维",
+    hero_p: "高性能纺织材料的工程与制造，按各市场需求定制。了解全球纺织工业最先进的成果。",
+    hero_b1: "了解我们的解决方案",
+    hero_b2: "我们的历史",
+    eixos_over: "我们的支柱",
+    eixos_t: "让我们跻身世界一流的原因",
+    eixos_l: "原料品质、自有工程能力与供应物流——每一卷交付产品的根基。",
+    eixos: [["专属顾问", "专属顾问团队按各市场需求提供产品选型服务。"], ["自有工程", "自有实验室与技术团队，从胶粘剂研发到应用测试。"], ["精选原料", "来自全球优质产地的基布与树脂，逐批质检。"], ["备库生产", "按库存生产，库存超过 40 天——供应不断档。"], ["持续创新", "产品组合持续演进，汇集全球纺织业最先进的成果。"]],
+    fab_over: "制造",
+    fab_t: "从纤维到成卷",
+    fab_p: "涂胶、再涂树脂与后整理生产线位居世界最先进之列——每一批次都遵循同一标准。",
+    fab_bg: "将工程图像（几何/细胞抽象）拖放至此——将作为半透明背景",
+    stats_over: "数字的力量",
+    stats_t: "制造，有保障",
+    s1v: "250 卷",
+    s1l: "日产能",
+    s1d: "衬布产量",
+    s2v: "+40",
+    s2l: "库存天数",
+    s2d: "面向欧洲与拉美",
+    s3v: "3",
+    s3l: "大洲",
+    s3d: "LATAM · EUR · ASIA",
+    pres_over: "全球布局",
+    pres_t: "三大洲，同一标准",
+    pres_labels: ["拉丁美洲", "欧洲", "亚洲"],
+    pres: [["巴西", "以巴西为基地的制造、分销、库存与技术支持——服务巴拉圭、智利、阿根廷、哥伦比亚与墨西哥。"], ["意大利", "传承、品牌基因与产品开发，源自纺织设计的发源地。"], ["中国", "运营工厂的工业生产与工艺工程。"]],
+    prod_over: "产品系列",
+    prod_t: "Performance Materials",
+    prod_l: "面向西装定制、衬衫与结构性时装的技术纺织品与创新材料——Plusupper 系列。",
+    prod_all: "完整产品系列",
+    cta_t: "联系 Mattiuz",
+    cta_p: "客户与新伙伴：我们会将每一条讯息转交给对应团队。",
+    cta_b: "联系我们",
+    stock: "现货",
+    consult: "询价",
+    gram: "克重 ",
+    ask: "申请样品",
+    cats: {
+      fus: "热熔衬",
+      malha: "针织",
+      tecido: "梭织",
+      nt: "非织造"
+    },
+    cat_all: "全部",
+    bases: {
+      pes: "100% 聚酯",
+      cot: "100% 棉"
+    },
+    port_over: "完整产品系列",
+    port_t: "我们的技术",
+    port_l: "六条热熔衬布产品线，适用于衬衫、西装定制与结构性时装。从最轻薄的贴边到最挺括的领底。",
+    port_nums: "41 个规格 · 6 条产品线 · 14 至 225 g/m² · 幅宽 6 mm 至 1.50 m",
+    lines: [{
+      lab: "梭织",
+      t: "Woven Line",
+      spec: "31 至 225 g/m² · 棉与聚酯 · 1.10 与 1.50 m",
+      txt: "梭织基布，尺寸稳定、手感自然。这是高档衬衫与西装定制的产品线：领型历经反复水洗依然挺括。",
+      apps: "衬衫 · 西装定制 · 制服",
+      seal: ["13 个规格", "现货供应"],
+      img: "棉衬布卷特写，织纹清晰可见。"
+    }, {
+      lab: "针织",
+      t: "Knitted Line",
+      spec: "41 至 64 g/m² · 100% 聚酯 · 1.50 m",
+      txt: "针织基布，随面料一同延展。适用于针织服装，以及需要弹性又不能变形的衣片。",
+      apps: "针织服装 · 牛仔 · 轻薄衬衫",
+      seal: ["3 个规格", "现货供应"],
+      img: "双手拉伸针织衬布的细节。"
+    }, {
+      lab: "热熔衬",
+      t: "Non-Woven Line",
+      spec: "28 至 118 g/m² · 100% 聚酯 · 0.60 与 1.50 m",
+      txt: "热熔非织造衬布，从超轻薄到厚实的领底——克重覆盖范围为全系列最广。",
+      apps: "衬衫 · 贴边与口袋 · 领底",
+      seal: ["12 个规格", "现货供应"],
+      img: "从最轻薄到最挺括的样品依次并排。"
+    }, {
+      lab: "双面胶",
+      t: "Bonding Line",
+      spec: "14 至 40 g/m² · 聚酰胺与聚酯 · 0.75 与 1.50 m",
+      txt: "无需缝合的粘合：用于下摆的聚酰胺网膜，以及用于复合的宽幅双面胶。",
+      apps: "下摆 · 复合 · 后整理",
+      seal: ["4 个规格"],
+      img: "下摆压烫过程，不见明线。"
+    }, {
+      lab: "特种",
+      t: "Specialty Line",
+      spec: "弹性、双向弹力与易撚型",
+      txt: "解决标准产品线覆盖不到的情况：含氨纶的衣片、绣花与厚实基布。",
+      apps: "含氨纶衣片 · 绣花 · 细分品类",
+      seal: ["4 个规格"],
+      img: "含氨纶面料被拉伸，衬布随之延展。"
+    }, {
+      lab: "衬条",
+      t: "Narrow Line",
+      spec: "幅宽 6 mm 至 17.5 cm · 按需分切",
+      txt: "条状加固与后整理材料，按衣片所需幅宽分切。",
+      apps: "缝口加固 · 下摆 · 贴边",
+      seal: ["5 个规格"],
+      img: "窄幅衬条卷整齐排列，宽度层次可见。"
+    }],
+    port_foot_t: "您的产品适合哪条产品线？",
+    port_foot_p: "我们的顾问会与您的技术团队一同完成选型，并寄送样品供应用测试。",
+    port_foot_b: "联系顾问",
+    dlg_t: "申请样品 — ",
+    dlg_email: "企业邮箱",
+    dlg_vol: "预计月用量",
+    vols: ["1,000 米以内", "1,000–10,000 米", "10,000 米以上"],
+    dlg_cb: "希望获得应用技术支持",
+    cancel: "取消",
+    send_req: "提交申请",
+    toast_ok: "申请已发送至 contato@mattiuz.com.br。我们的技术团队将在 1 个工作日内回复。",
+    c_over: "联系我们",
+    c_t: "联系 Mattiuz",
+    c_l: "我们会将您的讯息转交给对应团队——商务、技术或企业事务。",
+    c_div: "顾问式服务体验",
+    c_steps: [["售前", "版型分析与熔合测试。"], ["过程中", "批次跟踪与标准化。"], ["售后", "应用支持与补货保障。"]],
+    f_client: "您已经是 Mattiuz 的客户了吗？",
+    f_yes: "是",
+    f_no: "否",
+    f_country: "国家/地区",
+    countries: ["巴西", "中国", "阿根廷", "智利", "哥伦比亚", "墨西哥", "秘鲁", "美国", "意大利", "其他"],
+    f_reason: "联系事由",
+    reasons: ["商务", "技术支持", "物流与供应", "供应商", "媒体", "其他"],
+    f_subject: "主题",
+    f_subject_ph: "例如：Plusupper 系列报价",
+    f_fullname: "姓名",
+    f_fullname_ph: "您的姓名",
+    f_email: "企业邮箱",
+    f_email_ph: "name@company.com",
+    f_doc_br: "CPF / CNPJ",
+    f_doc_intl: "纳税人识别号",
+    f_doc_ph: "仅填数字",
+    f_phone: "电话",
+    f_phone_ph: "+86 000 0000 0000",
+    f_msg: "留下您的讯息",
+    f_msg_ph: "请输入您的讯息",
+    f_send: "发送",
+    f_sending: "发送中…",
+    sent_t: "已收到。",
+    sent_p: "您的讯息已送达 contato@mattiuz.com.br。我们将在 1 个工作日内回复。",
+    sent_again: "再写一条",
+    h_over: "我们的历史",
+    h_t: "意大利传承，在巴西织就",
+    h_lead: "Mattiuz 这个名字承载着一个意大利家族的姓氏——他们跨越大洋，把巴西南部当作家园，把纺织当作事业。",
+    h_b1t: "远航",
+    h_b1: "像许多来自威尼托的家庭一样，Mattiuz 家族抵达巴西时，除了自己的姓氏和勤劳的传统之外几乎一无所有。与织物的缘分自此开始：意大利移民为巴西南部的工业注入了手工艺般的严谨。",
+    h_b2t: "手艺",
+    h_b2: "是移民开启了巴西南部的工业化——而它始于纺织，早在 19 世纪。数十年的车间经验构成了公司的根基：对纤维、机器与人的了解。",
+    h_b3t: "品牌",
+    h_b3: "Mattiuz 是这段历程的签名——在一个以德国名字为主的市场里的意大利名字，把意大利的设计传承与欧洲的工业纪律结合在一起。",
+    h_dt: "意大利设计，欧洲标准",
+    h_d: "意大利是时装与设计的世界标杆，欧洲是工业标准化的标杆。Mattiuz 把两种传统带向全球市场：精确的产品设计、逐批审核的工艺，以及为高级定制供货者所具备的优雅。",
+    h_capHero: "20 世纪初，巴西南部的移民家庭",
+    h_cap1: "从内陆的田间……",
+    h_cap2: "……到最早的纺纱厂：纺织业开启了南部的工业化",
+    h_cta: "了解我们的产品系列",
+    foot_desc: "面向全球产业链的高性能纺织材料制造与工程。",
+    foot_regions: "LATAM · EUR · ASIA",
+    foot_nav: "导航",
+    foot_inst: "企业信息",
+    foot_contact: "联系方式",
+    foot_hq: "总部",
+    foot_addr: "89069-004 · 巴西 布卢梅纳乌",
+    foot_rights: "© 2026 Mattiuz Textil",
+    foot_tag: "创新融于每一根纤维",
+    inst: {
+      sust: {
+        t: "可持续发展",
+        p1: "我们以经审核的流程、水与能源效率，以及全链条的原料可追溯性运营——从基布供应商到交付的每一卷产品。",
+        cert_over: "认证",
+        cert_p: "我们的工厂与合作伙伴采用 OEKO-TEX STANDARD 100 标准。",
+        mail: "sustentabilidade@mattiuz.com.br"
+      },
+      carr: {
+        t: "招贤纳士",
+        p1: "工程、运营、物流与商务：我们与懂纤维、懂机器、懂市场的人一同成长。",
+        areas: [["企业文化", "我们如何思考与工作——从纤维到市场。"], ["组织氛围", "定期调研与各部门行动计划。"], ["生活质量", "车间与办公室的健康、安全与福祉。"], ["人才发展", "持续的技术培训与领导力项目。"], ["职业发展", "清晰的成长通道与内部流动。"], ["薪酬公平报告", "定期发布，可供查阅。"]],
+        mail: "carreiras@mattiuz.com.br"
+      },
+      etica: {
+        t: "合规诚信计划",
+        p1: "Mattiuz 的诚信计划推动业务中的道德、诚信与透明。我们遵守适用于运营的法律、法规与政策。",
+        pillars_t: "计划架构",
+        pillars: ["高层的承诺与支持", "合规风险管理", "培训与宣导", "政策与控制", "准则与举报渠道", "持续性与可持续"],
+        comm_t: "道德与合规委员会",
+        comm_p: "以顾问角色评估诚信计划的制定、实施与适当性，并监督该计划与合规团队。",
+        canal_t: "举报渠道",
+        canal_p: "用于举报违反我们准则行为的保密渠道。举报可匆名提交，并将独立核查。",
+        canal_ph: "请描述举报内容（可匆名）",
+        canal_send: "提交举报",
+        canal_ok: "举报已登记并转交委员会。",
+        mail: "etica@mattiuz.com.br"
+      },
+      lgpd: {
+        t: "个人数据保护（LGPD）",
+        p1: "我们依照巴西《通用数据保护法》（第 13.709/2018 号法律）处理个人数据，并就目的、保存期限与共享情况保持透明。",
+        facts: [["我们处理的数据", "客户、供应商与应聘者的登记与联系信息——仅限各项目的必要范围。"], ["您的权利", "随时可要求确认、查阅、更正、可携、删除，以及撤回同意。"], ["安全", "访问、记录与保存方面的技术与组织控制措施。"], ["数据保护负责人（DPO）", "为数据主体与主管机关设立的专属渠道。"]],
         mail: "dpo@mattiuz.com.br"
       }
     }
@@ -8054,33 +8842,6 @@ function InstP({
     }
   }, children);
 }
-function DocRow({
-  name
-}) {
-  const [h, setH] = React.useState(false);
-  return /*#__PURE__*/React.createElement("div", {
-    onMouseEnter: () => setH(true),
-    onMouseLeave: () => setH(false),
-    style: {
-      display: "flex",
-      justifyContent: "space-between",
-      alignItems: "center",
-      gap: 16,
-      padding: "14px 2px",
-      borderTop: "var(--line-hair)",
-      cursor: "pointer",
-      background: h ? "var(--mtz-navy-wash)" : "transparent",
-      transition: "background var(--dur-fast)"
-    }
-  }, /*#__PURE__*/React.createElement("span", {
-    style: {
-      font: "400 13.5px/1.4 var(--font-body)",
-      color: h ? "var(--mtz-navy)" : "var(--text-body)"
-    }
-  }, name), /*#__PURE__*/React.createElement(Bd5, {
-    tone: "outline"
-  }, "PDF"));
-}
 function MailStrip({
   t,
   c,
@@ -8131,58 +8892,36 @@ function SustPage({
     }
   }, c.p1), /*#__PURE__*/React.createElement("div", {
     style: {
-      marginTop: 48
-    }
-  }, /*#__PURE__*/React.createElement(InstH2, null, c.eco_t), /*#__PURE__*/React.createElement(InstP, {
-    style: {
-      maxWidth: 620,
-      marginBottom: 20
-    }
-  }, c.eco_p), /*#__PURE__*/React.createElement("div", {
-    style: {
+      marginTop: 48,
+      border: "var(--line-hair)",
+      padding: "36px 40px",
       display: "grid",
-      gridTemplateColumns: "repeat(3,1fr)",
-      gap: 14
+      gridTemplateColumns: "auto 1fr",
+      gap: 40,
+      alignItems: "center"
     }
-  }, c.eco.map(e => /*#__PURE__*/React.createElement(Cd5, {
-    key: e[0],
-    pad: 20
-  }, /*#__PURE__*/React.createElement(Bd5, {
-    tone: "steel"
-  }, "ECO"), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
     style: {
-      font: "500 16px/1.3 var(--font-display)",
-      color: "var(--text-strong)",
-      margin: "12px 0 6px"
+      font: "600 10px/1 var(--font-body)",
+      letterSpacing: ".22em",
+      color: "var(--mtz-steel)",
+      marginBottom: 18
     }
-  }, e[0]), /*#__PURE__*/React.createElement("div", {
+  }, c.cert_over), /*#__PURE__*/React.createElement("img", {
+    src: IMG + "cert/oeko-tex-standard-100.png",
+    alt: "OEKO-TEX STANDARD 100",
     style: {
-      font: "400 12.5px/1.6 var(--font-body)",
-      color: "var(--text-muted)"
+      height: 116,
+      width: "auto",
+      display: "block",
+      mixBlendMode: "multiply"
     }
-  }, e[1]))))), /*#__PURE__*/React.createElement("div", {
+  })), /*#__PURE__*/React.createElement(InstP, {
     style: {
-      display: "grid",
-      gridTemplateColumns: "1fr 1fr",
-      gap: 48,
-      marginTop: 48
+      borderLeft: "var(--line-hair)",
+      paddingLeft: 40
     }
-  }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(InstH2, null, c.rep_t), /*#__PURE__*/React.createElement("div", null, c.reports.map(r => /*#__PURE__*/React.createElement(DocRow, {
-    key: r,
-    name: r
-  })))), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(InstH2, null, c.pol_t), /*#__PURE__*/React.createElement("div", null, c.policies.map(r => /*#__PURE__*/React.createElement(DocRow, {
-    key: r,
-    name: r
-  }))), /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: "flex",
-      gap: 8,
-      marginTop: 18
-    }
-  }, c.isos.map(i => /*#__PURE__*/React.createElement(Bd5, {
-    key: i,
-    tone: "navy"
-  }, i))))), /*#__PURE__*/React.createElement(MailStrip, {
+  }, c.cert_p)), /*#__PURE__*/React.createElement(MailStrip, {
     t: t,
     c: c,
     go: go
@@ -8305,18 +9044,10 @@ function EticaPage({
     }
   }, p))))), /*#__PURE__*/React.createElement("div", {
     style: {
-      display: "grid",
-      gridTemplateColumns: "1fr 1fr",
-      gap: 48,
+      maxWidth: 620,
       marginTop: 48
     }
-  }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(InstH2, null, c.code_t), /*#__PURE__*/React.createElement(InstP, null, c.code_p), /*#__PURE__*/React.createElement("div", {
-    style: {
-      marginTop: 16
-    }
-  }, /*#__PURE__*/React.createElement(DocRow, {
-    name: c.code_t
-  }))), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(InstH2, null, c.comm_t), /*#__PURE__*/React.createElement(InstP, null, c.comm_p))), /*#__PURE__*/React.createElement(Cd5, {
+  }, /*#__PURE__*/React.createElement(InstH2, null, c.comm_t), /*#__PURE__*/React.createElement(InstP, null, c.comm_p)), /*#__PURE__*/React.createElement(Cd5, {
     variant: "navy",
     pad: 32,
     style: {
@@ -8417,14 +9148,7 @@ function LgpdPage({
       font: "400 13.5px/1.7 var(--font-body)",
       color: "var(--text-body)"
     }
-  }, f[1])))), /*#__PURE__*/React.createElement("div", {
-    style: {
-      maxWidth: 440,
-      marginTop: 32
-    }
-  }, /*#__PURE__*/React.createElement(DocRow, {
-    name: c.doc
-  })), /*#__PURE__*/React.createElement(MailStrip, {
+  }, f[1])))), /*#__PURE__*/React.createElement(MailStrip, {
     t: t,
     c: c,
     go: go
@@ -8473,86 +9197,67 @@ const {
   Tooltip
 } = DS2;
 const WAVE_N = [1, 6, 10, 4, 2];
-const PRODUCTS = [{
-  name: "Plusupper H2705",
-  cat: "fus",
-  base: "100% poliéster",
-  g: "45 g/m²",
-  stock: true,
-  img: "label.png"
-}, {
-  name: "Plusupper M1200",
-  cat: "malha",
-  base: "PES charmeuse",
-  g: "38 g/m²",
-  stock: true,
-  img: "mock02.png"
-}, {
-  name: "Plusupper T410",
-  cat: "tecido",
-  base: "algodão/PES",
-  g: "110 g/m²",
-  stock: false,
-  img: "mock08.png"
-}, {
-  name: "Plusupper N330",
-  cat: "nt",
-  base: "100% PES",
-  g: "33 g/m²",
-  stock: true,
-  img: "workwear.png"
-}, {
-  name: "Plusupper H900",
-  cat: "fus",
-  base: "PA micropontos",
-  g: "52 g/m²",
-  stock: true,
-  img: "mock05.png"
-}, {
-  name: "Plusupper T680",
-  cat: "tecido",
-  base: "crina/mescla",
-  g: "160 g/m²",
-  stock: false,
-  img: "facade.png"
-}];
+const MARK_V = "?v=4";
+const LINE_SRC = ["port/woven.jpg", "port/knitted.jpg", "port/non-woven.jpg", "port/bonding.jpg", "port/specialty.jpg", "port/narrow.jpg"].map(f => f + MARK_V);
+const HOME_SRC = ["home/woven.jpg", "home/knitted.jpg", "home/non-woven.jpg"].map(f => f + MARK_V);
+const HERO_SRCS = [1, 2, 3, 4].map(n => `../../assets/video/hero-${n}.mp4`);
+const HERO_FADE = 900;
 function HeroVideo() {
-  const [i, setI] = React.useState(0);
-  const refs = [React.useRef(null), React.useRef(null)];
-  const srcs = ["../../assets/video/galpoes-slowmo.mp4", "../../assets/video/galpoes-slowmo-2.mp4"];
+  const refs = HERO_SRCS.map(() => React.useRef(null));
+  const [cur, setCur] = React.useState(0);
+  const busy = React.useRef(false);
   React.useEffect(() => {
-    refs.forEach(r => {
-      if (r.current) r.current.playbackRate = 0.5;
-    });
-    const cur = refs[i].current;
-    if (cur) {
-      cur.currentTime = 0;
-      cur.play().catch(() => {});
+    const v = refs[cur].current;
+    if (!v) return;
+    v.muted = true;
+    v.playbackRate = 0.5;
+    const start = () => {
+      v.playbackRate = 0.5;
+      v.play().catch(() => {});
+    };
+    start();
+    v.addEventListener("canplay", start);
+    busy.current = false;
+    return () => v.removeEventListener("canplay", start);
+  }, [cur]);
+  const onTime = i => () => {
+    const v = refs[i].current;
+    if (i !== cur || busy.current || !v || !v.duration) return;
+    if ((v.duration - v.currentTime) / 0.5 > HERO_FADE / 1000) return;
+    busy.current = true;
+    const n = (i + 1) % HERO_SRCS.length;
+    const nv = refs[n].current;
+    if (nv) {
+      nv.muted = true;
+      nv.currentTime = 0;
+      nv.playbackRate = 0.5;
+      nv.play().catch(() => {});
     }
-    const nxt = refs[(i + 1) % 2].current;
-    if (nxt) nxt.load();
-  }, [i]);
-  const vidStyle = on => ({
-    position: "absolute",
-    inset: 0,
-    width: "100%",
-    height: "100%",
-    objectFit: "cover",
-    objectPosition: "center 30%",
-    filter: "grayscale(1)",
-    opacity: on ? .5 : 0,
-    transition: "opacity 600ms var(--ease-out)",
-    pointerEvents: "none"
-  });
-  return /*#__PURE__*/React.createElement(React.Fragment, null, srcs.map((s, k) => /*#__PURE__*/React.createElement("video", {
-    key: k,
+    setCur(n);
+    setTimeout(() => {
+      if (refs[i].current) refs[i].current.pause();
+    }, HERO_FADE);
+  };
+  return /*#__PURE__*/React.createElement(React.Fragment, null, HERO_SRCS.map((s, k) => /*#__PURE__*/React.createElement("video", {
+    key: s,
     ref: refs[k],
     muted: true,
     playsInline: true,
     preload: "auto",
     autoPlay: k === 0,
-    onEnded: () => setI((i + 1) % 2),
-    style: vidStyle(k === i)
+    onTimeUpdate: onTime(k),
+    style: {
+      position: "absolute",
+      inset: 0,
+      width: "100%",
+      height: "100%",
+      objectFit: "cover",
+      objectPosition: "center 30%",
+      filter: "grayscale(1)",
+      opacity: k === cur ? .5 : 0,
+      transition: `opacity ${HERO_FADE}ms linear`,
+      pointerEvents: "none"
+    }
   }, /*#__PURE__*/React.createElement("source", {
     src: s,
     type: "video/mp4"
@@ -8795,9 +9500,10 @@ function Home({
       gap: 14,
       marginTop: 44
     }
-  }, PRODUCTS.slice(0, 3).map(p => /*#__PURE__*/React.createElement(ProductCard, {
-    key: p.name,
-    p: p,
+  }, t.lines.slice(0, 3).map((l, i) => /*#__PURE__*/React.createElement(LineTeaser, {
+    key: l.t,
+    l: l,
+    i: i,
     t: t,
     onAsk: () => go("portfolio")
   })))), /*#__PURE__*/React.createElement(PatternBlock, {
@@ -8842,63 +9548,86 @@ function Home({
     onClick: () => go("contact")
   }, t.cta_b)))));
 }
-function ProductCard({
-  p,
+function LineTeaser({
+  l,
+  i,
   t,
   onAsk
 }) {
   return /*#__PURE__*/React.createElement(Card, {
     pad: 0,
     style: {
-      overflow: "hidden"
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      height: 150,
-      background: `var(--mtz-mist) url(${IMG + p.img}) center/cover`
-    }
-  }), /*#__PURE__*/React.createElement("div", {
-    style: {
-      padding: 20
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
+      overflow: "hidden",
       display: "flex",
-      gap: 8,
-      marginBottom: 12
+      flexDirection: "column"
     }
-  }, /*#__PURE__*/React.createElement(Badge, {
-    tone: p.stock ? "navy" : "outline"
-  }, p.stock ? t.stock : t.consult), /*#__PURE__*/React.createElement(Badge, {
-    tone: "neutral"
-  }, t.cats[p.cat])), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("div", {
     style: {
-      font: "500 17px/1.3 var(--font-display)",
-      color: "var(--text-strong)"
+      position: "relative",
+      height: 190,
+      overflow: "hidden",
+      background: "var(--mtz-mist)"
     }
-  }, p.name), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("img", {
+    src: IMG + "lines/" + HOME_SRC[i],
+    alt: "",
+    style: {
+      position: "absolute",
+      inset: 0,
+      width: "100%",
+      height: "100%",
+      objectFit: "cover",
+      display: "block"
+    }
+  })), /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: 20,
+      display: "flex",
+      flexDirection: "column",
+      flex: 1
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      font: "600 10px/1 var(--font-body)",
+      letterSpacing: ".2em",
+      color: "var(--mtz-steel)"
+    }
+  }, l.lab), /*#__PURE__*/React.createElement("div", {
+    style: {
+      font: "300 22px/1.25 var(--font-display)",
+      color: "var(--text-strong)",
+      margin: "10px 0 6px"
+    }
+  }, l.t), /*#__PURE__*/React.createElement("div", {
     style: {
       font: "400 12.5px/1.6 var(--font-body)",
-      color: "var(--text-muted)",
-      margin: "6px 0 14px"
+      color: "var(--text-muted)"
     }
-  }, p.base, " \xB7 ", /*#__PURE__*/React.createElement(Tooltip, {
-    label: t.gram + p.g
-  }, /*#__PURE__*/React.createElement("span", {
+  }, l.spec), /*#__PURE__*/React.createElement("div", {
     style: {
-      borderBottom: "1px dotted var(--mtz-gray)",
-      cursor: "help"
+      display: "flex",
+      flexWrap: "wrap",
+      gap: 6,
+      marginTop: "auto",
+      paddingTop: 18
     }
-  }, p.g))), /*#__PURE__*/React.createElement(Button, {
+  }, l.seal.map((s, k) => /*#__PURE__*/React.createElement(Badge, {
+    key: s,
+    tone: k === 0 ? "neutral" : "navy"
+  }, s))), /*#__PURE__*/React.createElement("div", {
+    style: {
+      marginTop: 14
+    }
+  }, /*#__PURE__*/React.createElement(Button, {
     variant: "outline",
     size: "sm",
     onClick: onAsk
-  }, t.ask)));
+  }, t.ask))));
 }
 Object.assign(window, {
   Home,
-  ProductCard,
-  PRODUCTS
+  LineTeaser,
+  LINE_SRC
 });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "ui_kits/website/pages.jsx", error: String((e && e.message) || e) }); }
 

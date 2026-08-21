@@ -18,15 +18,6 @@ function InstH2({ children }) {
 function InstP({ children, style }) {
   return <p style={{ font: "400 14.5px/1.8 var(--font-body)", color: "var(--text-body)", margin: 0, ...style }}>{children}</p>;
 }
-function DocRow({ name }) {
-  const [h, setH] = React.useState(false);
-  return (
-    <div onMouseEnter={() => setH(true)} onMouseLeave={() => setH(false)} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 16, padding: "14px 2px", borderTop: "var(--line-hair)", cursor: "pointer", background: h ? "var(--mtz-navy-wash)" : "transparent", transition: "background var(--dur-fast)" }}>
-      <span style={{ font: "400 13.5px/1.4 var(--font-body)", color: h ? "var(--mtz-navy)" : "var(--text-body)" }}>{name}</span>
-      <Bd5 tone="outline">PDF</Bd5>
-    </div>
-  );
-}
 function MailStrip({ t, c, go }) {
   return (
     <div style={{ borderTop: "var(--line-hair)", paddingTop: 24, marginTop: 48, display: "flex", alignItems: "center", gap: 24, flexWrap: "wrap" }}>
@@ -41,29 +32,12 @@ function SustPage({ t, c, go }) {
     <section className="inst-body" style={{ maxWidth: 920, margin: "0 auto", padding: "64px 32px 96px" }}>
       <WE5 n={6} height={44} style={{ marginBottom: 24 }} />
       <InstP style={{ maxWidth: 680 }}>{c.p1}</InstP>
-      <div style={{ marginTop: 48 }}>
-        <InstH2>{c.eco_t}</InstH2>
-        <InstP style={{ maxWidth: 620, marginBottom: 20 }}>{c.eco_p}</InstP>
-        <div className="inst-grid-3" style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 14 }}>
-          {c.eco.map((e) => (
-            <Cd5 key={e[0]} pad={20}>
-              <Bd5 tone="steel">ECO</Bd5>
-              <div style={{ font: "500 16px/1.3 var(--font-display)", color: "var(--text-strong)", margin: "12px 0 6px" }}>{e[0]}</div>
-              <div style={{ font: "400 12.5px/1.6 var(--font-body)", color: "var(--text-muted)" }}>{e[1]}</div>
-            </Cd5>
-          ))}
-        </div>
-      </div>
-      <div className="inst-grid-2" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 48, marginTop: 48 }}>
+      <div className="cert-grid" style={{ marginTop: 48, border: "var(--line-hair)", padding: "36px 40px", display: "grid", gridTemplateColumns: "auto 1fr", gap: 40, alignItems: "center" }}>
         <div>
-          <InstH2>{c.rep_t}</InstH2>
-          <div>{c.reports.map((r) => <DocRow key={r} name={r} />)}</div>
+          <div style={{ font: "600 10px/1 var(--font-body)", letterSpacing: ".22em", color: "var(--mtz-steel)", marginBottom: 18 }}>{c.cert_over}</div>
+          <img src={IMG + "cert/oeko-tex-standard-100.png"} alt="OEKO-TEX STANDARD 100" style={{ height: 116, width: "auto", display: "block", mixBlendMode: "multiply" }} />
         </div>
-        <div>
-          <InstH2>{c.pol_t}</InstH2>
-          <div>{c.policies.map((r) => <DocRow key={r} name={r} />)}</div>
-          <div style={{ display: "flex", gap: 8, marginTop: 18 }}>{c.isos.map((i) => <Bd5 key={i} tone="navy">{i}</Bd5>)}</div>
-        </div>
+        <InstP style={{ borderLeft: "var(--line-hair)", paddingLeft: 40 }}>{c.cert_p}</InstP>
       </div>
       <MailStrip t={t} c={c} go={go} />
     </section>
@@ -108,16 +82,9 @@ function EticaPage({ t, c, go }) {
           ))}
         </div>
       </div>
-      <div className="inst-grid-2" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 48, marginTop: 48 }}>
-        <div>
-          <InstH2>{c.code_t}</InstH2>
-          <InstP>{c.code_p}</InstP>
-          <div style={{ marginTop: 16 }}><DocRow name={c.code_t} /></div>
-        </div>
-        <div>
-          <InstH2>{c.comm_t}</InstH2>
-          <InstP>{c.comm_p}</InstP>
-        </div>
+      <div style={{ maxWidth: 620, marginTop: 48 }}>
+        <InstH2>{c.comm_t}</InstH2>
+        <InstP>{c.comm_p}</InstP>
       </div>
       <Cd5 variant="navy" pad={32} style={{ marginTop: 48 }}>
         <div style={{ font: "500 20px/1.3 var(--font-display)", color: "var(--mtz-paper)", marginBottom: 10 }}>{c.canal_t}</div>
@@ -147,7 +114,6 @@ function LgpdPage({ t, c, go }) {
           </Cd5>
         ))}
       </div>
-      <div style={{ maxWidth: 440, marginTop: 32 }}><DocRow name={c.doc} /></div>
       <MailStrip t={t} c={c} go={go} />
     </section>
   );

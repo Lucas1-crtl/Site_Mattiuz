@@ -1,0 +1,16 @@
+# Mattiuz — regras de rastreamento
+# Este arquivo permite que mecanismos de busca encontrem o site.
+# Ele NÃO força uma posição no Google; a indexação e o ranking são decididos pelos buscadores.
+
+User-agent: *
+Allow: /
+
+# ChatGPT Search / OpenAI
+User-agent: OAI-SearchBot
+Allow: /
+
+# Acesso sob demanda quando um usuário pede uma página ao ChatGPT
+User-agent: ChatGPT-User
+Allow: /
+
+Sitemap: https://mattiuz.com.br/sitemap.xml
