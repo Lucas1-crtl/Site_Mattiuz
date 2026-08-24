@@ -13,11 +13,7 @@ pt: {
  pres_over:"Presença global", pres_t:"Três continentes, um padrão",
  pres_labels:["AMÉRICA LATINA","EUROPA","ÁSIA"],
  pres:[["Brasil","Fabricação, distribuição, estoque e apoio técnico a partir do Brasil — atendendo Paraguai, Chile, Argentina, Colômbia e México."],["Itália","Herança, identidade e desenvolvimento de produto com a qualidade do berço do design têxtil."],["China","Operação industrial e engenharia de processo nas plantas operacionais."]],
-<<<<<<< HEAD
- prod_over:"Portfólio", prod_t:"Performance Materials", prod_l:"Têxteis técnicos e materiais inovadores para alfaiataria, camisaria e moda estruturada — linhas Plusupper.", prod_all:"Portfólio completo",
-=======
  prod_over:"Portfólio", prod_t:"Performance Materials", prod_l:"Têxteis técnicos e materiais inovadores para alfaiataria, camisaria e moda estruturada.", prod_all:"Portfólio completo",
->>>>>>> b080083 (site att)
  cta_t:"Fale com a Mattiuz", cta_p:"Clientes e novos parceiros: nossa equipe direciona cada mensagem ao time certo.", cta_b:"Entrar em contato",
  stock:"Em estoque", consult:"Sob consulta", gram:"Gramatura ", ask:"Solicitar amostra",
  cats:{fus:"Fusível",malha:"Malha",tecido:"Tecido",nt:"Não tecido"}, cat_all:"Todas",

@@ -6741,11 +6741,7 @@ const T = {
     pres: [["Brasil", "Fabricação, distribuição, estoque e apoio técnico a partir do Brasil — atendendo Paraguai, Chile, Argentina, Colômbia e México."], ["Itália", "Herança, identidade e desenvolvimento de produto com a qualidade do berço do design têxtil."], ["China", "Operação industrial e engenharia de processo nas plantas operacionais."]],
     prod_over: "Portfólio",
     prod_t: "Performance Materials",
-<<<<<<< HEAD
-    prod_l: "Têxteis técnicos e materiais inovadores para alfaiataria, camisaria e moda estruturada — linhas Plusupper.",
-=======
     prod_l: "Têxteis técnicos e materiais inovadores para alfaiataria, camisaria e moda estruturada.",
->>>>>>> b080083 (site att)
     prod_all: "Portfólio completo",
     cta_t: "Fale com a Mattiuz",
     cta_p: "Clientes e novos parceiros: nossa equipe direciona cada mensagem ao time certo.",
