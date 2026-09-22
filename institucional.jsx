@@ -55,7 +55,24 @@ function CarrPage({ t, c, go }) {
             <div style={{ font: "300 30px/1 var(--font-display)", color: "var(--mtz-steel)", marginBottom: 12 }}>{"0" + (i + 1)}</div>
             <div style={{ font: "500 15.5px/1.3 var(--font-display)", color: "var(--text-strong)", marginBottom: 8 }}>{a[0]}</div>
             <div style={{ font: "400 12.5px/1.65 var(--font-body)", color: "var(--text-muted)" }}>{a[1]}</div>
+<<<<<<< HEAD
             {i === 5 && <div style={{ marginTop: 12 }}><Bd5 tone="outline">PDF</Bd5></div>}
+=======
+            {i === 5 && (
+              <div style={{ marginTop: 12 }}>
+                <a
+                  href="/assets/documentos/relatorio-equidade-salarial-2026.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Abrir Relatório de Equidade Salarial 2026 em PDF"
+                  title="Abrir Relatório de Equidade Salarial 2026"
+                  style={{ display: "inline-block", textDecoration: "none" }}
+                >
+                  <Bd5 tone="outline">Abrir PDF</Bd5>
+                </a>
+              </div>
+            )}
+>>>>>>> 57863d1 (site limpo)
           </Cd5>
         ))}
       </div>

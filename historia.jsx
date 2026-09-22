@@ -14,7 +14,11 @@ function History({ go, t }) {
             <p style={{ font: "400 15.5px/1.75 var(--font-body)", color: "var(--mtz-gray)", maxWidth: 480, margin: "24px 0 0" }}>{t.h_lead}</p>
           </div>
           <figure style={{ margin: 0 }}>
+<<<<<<< HEAD
             <img src={IMG + "historia-familia.png"} alt="" style={{ width: "100%", display: "block" }} />
+=======
+            <img src={IMG + "historia-familia.png"} alt={t.h_capHero} loading="lazy" decoding="async" style={{ width: "100%", display: "block" }} />
+>>>>>>> 57863d1 (site limpo)
             <figcaption style={{ font: "400 11px/1.6 var(--font-body)", color: "var(--mtz-gray)", marginTop: 10, letterSpacing: ".04em" }}>{t.h_capHero}</figcaption>
           </figure>
         </div>
@@ -35,11 +39,19 @@ function History({ go, t }) {
       <section className="history-gallery-section" style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "0 32px 88px" }}>
         <div className="history-gallery" style={{ display: "grid", gridTemplateColumns: "1fr 1.4fr", gap: 12 }}>
           <figure style={{ margin: 0 }}>
+<<<<<<< HEAD
             <img src={IMG + "historia-cafe.png"} alt="" style={{ width: "100%", height: 280, objectFit: "cover", display: "block", filter: "grayscale(1)" }} />
             <figcaption style={{ font: "400 11px/1.6 var(--font-body)", color: "var(--text-muted)", marginTop: 10, letterSpacing: ".04em" }}>{t.h_cap1}</figcaption>
           </figure>
           <figure style={{ margin: 0 }}>
             <img src={IMG + "historia-fiacao.png"} alt="" style={{ width: "100%", height: 280, objectFit: "cover", display: "block", filter: "grayscale(1)" }} />
+=======
+            <img src={IMG + "historia-cafe.png"} alt={t.h_cap1} loading="lazy" decoding="async" style={{ width: "100%", height: 280, objectFit: "cover", display: "block", filter: "grayscale(1)" }} />
+            <figcaption style={{ font: "400 11px/1.6 var(--font-body)", color: "var(--text-muted)", marginTop: 10, letterSpacing: ".04em" }}>{t.h_cap1}</figcaption>
+          </figure>
+          <figure style={{ margin: 0 }}>
+            <img src={IMG + "historia-fiacao.png"} alt={t.h_cap2} loading="lazy" decoding="async" style={{ width: "100%", height: 280, objectFit: "cover", display: "block", filter: "grayscale(1)" }} />
+>>>>>>> 57863d1 (site limpo)
             <figcaption style={{ font: "400 11px/1.6 var(--font-body)", color: "var(--text-muted)", marginTop: 10, letterSpacing: ".04em" }}>{t.h_cap2}</figcaption>
           </figure>
         </div>
@@ -48,7 +60,11 @@ function History({ go, t }) {
       <section style={{ background: "var(--mtz-navy)" }}>
         <div className="history-plant-grid" style={{ maxWidth: "var(--container-max)", margin: "0 auto", padding: "80px 32px", display: "grid", gridTemplateColumns: "1.1fr .9fr", gap: 56, alignItems: "center" }}>
           <div className="history-plant-image" style={{ height: 380, background: "var(--mtz-ink)", overflow: "hidden" }}>
+<<<<<<< HEAD
             <img src={IMG + "planta-mattiuz.jpg"} alt="" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center 32%", display: "block", filter: "grayscale(1)", opacity: .45 }} />
+=======
+            <img src={IMG + "planta-mattiuz.jpg"} alt="Unidade industrial da Mattiuz em Blumenau, Santa Catarina" loading="lazy" decoding="async" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center 32%", display: "block", filter: "grayscale(1)", opacity: .45 }} />
+>>>>>>> 57863d1 (site limpo)
           </div>
           <div>
             <WE4 n={8} height={54} style={{ marginBottom: 24 }} />

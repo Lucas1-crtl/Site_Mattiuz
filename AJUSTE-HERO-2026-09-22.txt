@@ -1,0 +1,6 @@
+AJUSTE VISUAL DO HERO — 22/09/2026
+
+- Removida a linha visual "MATTIUZ" entre "PERFORMANCE MATERIALS" e o H1.
+- Mantidos todos os sinais SEO de nome do site: WebSite.name, Organization.name, application-name, og:site_name, title e canonical.
+- O texto institucional continua mencionando a Mattiuz de forma natural.
+- Nenhuma tentativa de ocultar texto para SEO foi aplicada.

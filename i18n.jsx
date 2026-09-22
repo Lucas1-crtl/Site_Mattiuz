@@ -3,7 +3,11 @@ pt: {
  nav_home:"Início", nav_hist:"Nossa História", nav_port:"Portfólio", nav_contact:"Contato", nav_cta:"Conhecer soluções",
  u_sust:"Sustentabilidade", u_carr:"Carreiras", u_etica:"Canal de Ética", u_lgpd:"LGPD",
  hero_over:"PERFORMANCE MATERIALS", hero_h1a:"Inovação em", hero_h1b:"cada fibra",
+<<<<<<< HEAD
  hero_p:"Engenharia e fabricação de materiais têxteis de alta performance, sob medida para cada mercado. Conheça o que há de mais moderno na indústria têxtil mundial.",
+=======
+ hero_p:"A Mattiuz desenvolve e fabrica materiais têxteis de alta performance, sob medida para cada mercado. Conheça o que há de mais moderno na indústria têxtil mundial.",
+>>>>>>> 57863d1 (site limpo)
  hero_b1:"Conheça nossas soluções", hero_b2:"Nossa história",
  eixos_over:"Nossos pilares", eixos_t:"O que nos coloca entre os melhores do mundo", eixos_l:"Qualidade de insumo, engenharia própria e logística de fornecimento — os fundamentos de cada rolo entregue.",
  eixos:[["Consultores dedicados","Times de consultoria dedicados à seleção de portfólio, conforme a demanda de cada mercado."],["Engenharia própria","Laboratório e corpo técnico próprios, do desenvolvimento do adesivo ao teste de aplicação."],["Insumos selecionados","Bases e resinas das melhores origens do mundo, qualificadas lote a lote."],["Produção para estoque","Fabricação para estoque com +40 dias de inventário — fornecimento sem ruptura."],["Inovação contínua","Portfólio em evolução permanente, com o que há de mais moderno no têxtil mundial."]],
@@ -13,7 +17,11 @@ pt: {
  pres_over:"Presença global", pres_t:"Três continentes, um padrão",
  pres_labels:["AMÉRICA LATINA","EUROPA","ÁSIA"],
  pres:[["Brasil","Fabricação, distribuição, estoque e apoio técnico a partir do Brasil — atendendo Paraguai, Chile, Argentina, Colômbia e México."],["Itália","Herança, identidade e desenvolvimento de produto com a qualidade do berço do design têxtil."],["China","Operação industrial e engenharia de processo nas plantas operacionais."]],
+<<<<<<< HEAD
  prod_over:"Portfólio", prod_t:"Performance Materials", prod_l:"Têxteis técnicos e materiais inovadores para alfaiataria, camisaria e moda estruturada.", prod_all:"Portfólio completo",
+=======
+ prod_over:"Portfólio", prod_t:"Performance Materials", prod_l:"Têxteis técnicos e materiais inovadores para alfaiataria, camisaria e moda estruturada — linhas Plusupper.", prod_all:"Portfólio completo",
+>>>>>>> 57863d1 (site limpo)
  cta_t:"Fale com a Mattiuz", cta_p:"Clientes e novos parceiros: nossa equipe direciona cada mensagem ao time certo.", cta_b:"Entrar em contato",
  stock:"Em estoque", consult:"Sob consulta", gram:"Gramatura ", ask:"Solicitar amostra",
  cats:{fus:"Fusível",malha:"Malha",tecido:"Tecido",nt:"Não tecido"}, cat_all:"Todas",
@@ -75,7 +83,11 @@ en: {
  nav_home:"Home", nav_hist:"Our History", nav_port:"Portfolio", nav_contact:"Contact", nav_cta:"Explore solutions",
  u_sust:"Sustainability", u_carr:"Careers", u_etica:"Ethics Line", u_lgpd:"Privacy",
  hero_over:"PERFORMANCE MATERIALS", hero_h1a:"Innovation in", hero_h1b:"every fiber",
+<<<<<<< HEAD
  hero_p:"Engineering and manufacturing of high-performance textile materials, tailored to each market. Meet the most advanced in the world's textile industry.",
+=======
+ hero_p:"Mattiuz engineers and manufactures high-performance textile materials, tailored to each market. Meet the most advanced in the world's textile industry.",
+>>>>>>> 57863d1 (site limpo)
  hero_b1:"Explore our solutions", hero_b2:"Our history",
  eixos_over:"Our pillars", eixos_t:"What places us among the world's best", eixos_l:"Input quality, in-house engineering and supply logistics — the foundations of every roll delivered.",
  eixos:[["Dedicated consultants","Consulting teams dedicated to portfolio selection, matched to each market's demand."],["In-house engineering","Our own laboratory and technical staff, from adhesive development to application testing."],["Selected inputs","Bases and resins from the world's best origins, qualified batch by batch."],["Make-to-stock","Production to stock with +40 days of inventory — supply without disruption."],["Continuous innovation","A portfolio in permanent evolution, with the most advanced in world textiles."]],
@@ -147,7 +159,11 @@ it: {
  nav_home:"Home", nav_hist:"La Nostra Storia", nav_port:"Portfolio", nav_contact:"Contatti", nav_cta:"Scopri le soluzioni",
  u_sust:"Sostenibilità", u_carr:"Carriere", u_etica:"Canale Etico", u_lgpd:"Privacy",
  hero_over:"PERFORMANCE MATERIALS", hero_h1a:"Innovazione in", hero_h1b:"ogni fibra",
+<<<<<<< HEAD
  hero_p:"Ingegneria e produzione di materiali tessili ad alte prestazioni, su misura per ogni mercato. Scoprite il più moderno dell'industria tessile mondiale.",
+=======
+ hero_p:"Mattiuz sviluppa e produce materiali tessili ad alte prestazioni, su misura per ogni mercato. Scoprite il più moderno dell'industria tessile mondiale.",
+>>>>>>> 57863d1 (site limpo)
  hero_b1:"Scopri le nostre soluzioni", hero_b2:"La nostra storia",
  eixos_over:"I nostri pilastri", eixos_t:"Ciò che ci colloca tra i migliori al mondo", eixos_l:"Qualità dei materiali, ingegneria interna e logistica di fornitura — le fondamenta di ogni rotolo consegnato.",
  eixos:[["Consulenti dedicati","Team di consulenza dedicati alla selezione del portfolio, secondo la domanda di ogni mercato."],["Ingegneria interna","Laboratorio e corpo tecnico propri, dallo sviluppo dell'adesivo al test di applicazione."],["Materiali selezionati","Basi e resine dalle migliori origini del mondo, qualificate lotto per lotto."],["Produzione a scorta","Produzione a magazzino con +40 giorni di scorta — fornitura senza interruzioni."],["Innovazione continua","Un portfolio in evoluzione permanente, con il più moderno del tessile mondiale."]],
@@ -219,7 +235,11 @@ zh: {
  nav_home:"首页", nav_hist:"我们的历史", nav_port:"产品系列", nav_contact:"联系我们", nav_cta:"了解解决方案",
  u_sust:"可持续发展", u_carr:"招贤纳士", u_etica:"合规举报渠道", u_lgpd:"隐私保护",
  hero_over:"PERFORMANCE MATERIALS", hero_h1a:"创新", hero_h1b:"融于每一根纤维",
+<<<<<<< HEAD
  hero_p:"高性能纺织材料的工程与制造，按各市场需求定制。了解全球纺织工业最先进的成果。",
+=======
+ hero_p:"Mattiuz 专注于高性能纺织材料的工程与制造，并按各市场需求定制。了解全球纺织工业最先进的成果。",
+>>>>>>> 57863d1 (site limpo)
  hero_b1:"了解我们的解决方案", hero_b2:"我们的历史",
  eixos_over:"我们的支柱", eixos_t:"让我们跻身世界一流的原因", eixos_l:"原料品质、自有工程能力与供应物流——每一卷交付产品的根基。",
  eixos:[["专属顾问","专属顾问团队按各市场需求提供产品选型服务。"],["自有工程","自有实验室与技术团队，从胶粘剂研发到应用测试。"],["精选原料","来自全球优质产地的基布与树脂，逐批质检。"],["备库生产","按库存生产，库存超过 40 天——供应不断档。"],["持续创新","产品组合持续演进，汇集全球纺织业最先进的成果。"]],

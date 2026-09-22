@@ -35,7 +35,11 @@ function LineCard({ l, i, t, onAsk }) {
     <Cd3 className="line-card" pad={0} style={{ display: "grid", gridTemplateColumns: "200px 1fr", overflow: "hidden" }}>
       <div style={{ position: "relative", background: "var(--mtz-mist)", minHeight: 300 }}>
         {window.LINE_SRC[i]
+<<<<<<< HEAD
           ? <img src={IMG + "lines/" + window.LINE_SRC[i]} alt="" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+=======
+          ? <img src={IMG + "lines/" + window.LINE_SRC[i]} alt={`${l.t} — ${l.spec}`} loading="lazy" decoding="async" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+>>>>>>> 57863d1 (site limpo)
           : <image-slot id={"mtz-port-line-" + (i + 1)} shape="rect" placeholder={l.img} style={{ position: "absolute", inset: 0 }}></image-slot>}
       </div>
       <div style={{ padding: "26px 28px 24px", display: "flex", flexDirection: "column" }}>

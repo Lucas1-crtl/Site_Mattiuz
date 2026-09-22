@@ -1,0 +1,30 @@
+MATTIUZ — MELHORIAS APLICADAS EM 28/08/2026
+============================================
+
+SEO / NOME DO SITE
+- WebSite JSON-LD com name "Mattiuz" e alternateName consistentes.
+- Organization e WebPage ligados ao WebSite no mesmo @graph.
+- og:site_name e application-name mantidos como "Mattiuz".
+- Nome "Mattiuz" adicionado de forma visível ao H1 do Hero.
+- Texto do Hero agora menciona explicitamente Mattiuz.
+- Conteúdo inicial HTML dentro de #root para evitar HTML vazio antes do React.
+- Canonical preservado em https://mattiuz.com.br/.
+- Sitemap atualizado em 28/08/2026.
+
+COMPARTILHAMENTO / IDENTIDADE
+- Open Graph com imagem institucional.
+- Twitter Card com imagem institucional.
+- favicon.ico adicionado para compatibilidade, mantendo PNGs existentes.
+
+PERFORMANCE / ACESSIBILIDADE
+- Imagens de conteúdo com alt descritivo.
+- lazy loading e decoding async em imagens abaixo da dobra.
+- Vídeos secundários do Hero com preload metadata.
+
+CARREIRAS
+- PDF do Relatório de Equidade Salarial 2026 incluído.
+- Botão do tópico 06 agora abre o PDF em nova aba.
+
+PRÓXIMA ETAPA
+- Quando existirem perfis oficiais de Instagram e LinkedIn, adicionar as URLs reais
+  ao campo sameAs do Organization. Nenhum link social fictício foi criado.

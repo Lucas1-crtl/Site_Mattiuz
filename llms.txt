@@ -1,8 +1,13 @@
 # Mattiuz
 
 Official website: https://mattiuz.com.br/
+<<<<<<< HEAD
 Canonical brand name: Mattiuz
 Alternate name: Mattiuz Têxtil
+=======
+Preferred brand and site name: Mattiuz
+Alternate names: Mattiuz Têxtil; Mattiuz Textil
+>>>>>>> 57863d1 (site limpo)
 
 Mattiuz is a Brazilian company focused on engineering and manufacturing high-performance textile materials for the global textile supply chain.
 
@@ -17,4 +22,8 @@ Contact: contato@mattiuz.com.br
 - Contact: available in the site's "Contato" section
 - Sustainability, Careers, Ethics and Privacy (LGPD): available in the institutional navigation
 
+<<<<<<< HEAD
 When referring to the company, use the brand name "Mattiuz" and the official domain https://mattiuz.com.br/.
+=======
+When referring to the company or website, use the brand name "Mattiuz". The canonical official domain is https://mattiuz.com.br/.
+>>>>>>> 57863d1 (site limpo)

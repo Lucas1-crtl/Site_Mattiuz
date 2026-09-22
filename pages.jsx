@@ -38,7 +38,11 @@ function HeroVideo() {
   return (
     <React.Fragment>
       {HERO_SRCS.map((s, k) => (
+<<<<<<< HEAD
         <video key={s} ref={refs[k]} muted playsInline preload="auto" autoPlay={k === 0} onTimeUpdate={onTime(k)}
+=======
+        <video key={s} ref={refs[k]} muted playsInline preload={k === 0 ? "auto" : "metadata"} autoPlay={k === 0} onTimeUpdate={onTime(k)} aria-hidden="true"
+>>>>>>> 57863d1 (site limpo)
           style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", objectPosition: "center 30%", filter: "grayscale(1)", opacity: k === cur ? .5 : 0, transition: `opacity ${HERO_FADE}ms linear`, pointerEvents: "none" }}>
           <source src={s} type="video/mp4" />
         </video>
@@ -87,9 +91,19 @@ function Home({ go, t }) {
             <div style={{ marginTop: 28 }}><Button variant="outline" onClick={() => go("history")}>{t.nav_hist}</Button></div>
           </div>
           <div className="fab-images" style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 12, height: 320 }}>
+<<<<<<< HEAD
             {["producao-rolos.jpg", "acabamento-dobras.jpg", "estoque-rolos.jpg"].map((f) => (
               <div key={f} style={{ background: "var(--mtz-navy)", overflow: "hidden" }}>
                 <img src={IMG + f} alt="" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block", filter: "grayscale(1)", opacity: .42 }} />
+=======
+            {[
+              ["producao-rolos.jpg", "Produção de rolos de materiais têxteis na Mattiuz"],
+              ["acabamento-dobras.jpg", "Acabamento de materiais têxteis na Mattiuz"],
+              ["estoque-rolos.jpg", "Estoque de rolos de materiais têxteis da Mattiuz"]
+            ].map(([f, alt]) => (
+              <div key={f} style={{ background: "var(--mtz-navy)", overflow: "hidden" }}>
+                <img src={IMG + f} alt={alt} loading="lazy" decoding="async" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block", filter: "grayscale(1)", opacity: .42 }} />
+>>>>>>> 57863d1 (site limpo)
               </div>
             ))}
           </div>
@@ -134,7 +148,11 @@ function LineTeaser({ l, i, t, onAsk }) {
   return (
     <Card pad={0} style={{ overflow: "hidden", display: "flex", flexDirection: "column" }}>
       <div style={{ position: "relative", height: 190, overflow: "hidden", background: "var(--mtz-mist)" }}>
+<<<<<<< HEAD
         <img src={IMG + "lines/" + HOME_SRC[i]} alt="" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+=======
+        <img src={IMG + "lines/" + HOME_SRC[i]} alt={`${l.t} — ${l.spec}`} loading="lazy" decoding="async" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+>>>>>>> 57863d1 (site limpo)
       </div>
       <div style={{ padding: 20, display: "flex", flexDirection: "column", flex: 1 }}>
         <div style={{ font: "600 10px/1 var(--font-body)", letterSpacing: ".2em", color: "var(--mtz-steel)" }}>{l.lab}</div>
