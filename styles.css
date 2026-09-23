@@ -169,20 +169,3 @@ img, video { max-width: 100%; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
-<<<<<<< HEAD
-=======
-
-/* SEO / first-render shell: content stays visible until React replaces #root. */
-.seo-bootstrap { min-height: 72vh; background: #233d6d; color: #f7f7f6; }
-.seo-bootstrap-hero { max-width: 1180px; margin: 0 auto; padding: 112px 32px 104px; }
-.seo-bootstrap-logo { height: 30px; width: auto; display: block; margin-bottom: 52px; }
-.seo-bootstrap-overline { margin: 0 0 20px; font: 600 11px/1 Arial,sans-serif; letter-spacing: .22em; color: #7195cc; }
-.seo-bootstrap h1 { max-width: 700px; margin: 0; font: 300 52px/1.12 Arial,sans-serif; letter-spacing: .01em; }
-.seo-bootstrap p:not(.seo-bootstrap-overline) { max-width: 600px; margin: 24px 0 0; font: 400 16px/1.75 Arial,sans-serif; color: #d3d6dc; }
-.noscript-note { max-width: 760px; margin: 20px auto; padding: 0 24px; font: 400 13px/1.6 Arial,sans-serif; }
-@media (max-width: 680px) {
-  .seo-bootstrap-hero { padding: 72px 20px 64px; }
-  .seo-bootstrap-logo { height: 25px; margin-bottom: 40px; }
-  .seo-bootstrap h1 { font-size: 38px; }
-}
->>>>>>> 57863d1 (site limpo)

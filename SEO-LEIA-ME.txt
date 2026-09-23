@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 MATTIUZ — SEO + MOBILE
 ======================
 
@@ -35,70 +34,10 @@ APÓS O UPLOAD NA PUBLIC_HTML
 
 RESULTADO DESEJADO NO GOOGLE
 ----------------------------
-=======
-MATTIUZ — PACOTE SEO / IDENTIDADE / MOBILE — 28-08-2026
-========================================================
-
-OBJETIVO PRINCIPAL
-------------------
-Reforçar de forma consistente que o nome preferido do site e da marca é "Mattiuz",
-sem tentar manipular ou garantir resultados que dependem do Google.
-
-MELHORIAS DESTA VERSÃO
------------------------
-1. WebSite JSON-LD mantém um único nó de site com:
-   - name: Mattiuz
-   - alternateName: Mattiuz Têxtil / Mattiuz Textil
-   - url canônica: https://mattiuz.com.br/
-
-2. Organization + WebPage conectados ao WebSite no mesmo @graph.
-
-3. Nome "Mattiuz" reforçado de forma VISÍVEL na Home React:
-   - dentro do H1 do Hero;
-   - no texto principal do Hero;
-   - no conteúdo inicial HTML antes de o React carregar.
-
-4. Conteúdo HTML inicial dentro de #root.
-   Isso evita uma página totalmente vazia antes do JavaScript e dá a rastreadores
-   uma representação textual coerente com a Home real. O React substitui esse
-   conteúdo automaticamente ao iniciar.
-
-5. Open Graph + Twitter Card + imagem institucional para compartilhamentos.
-
-6. Favicon:
-   - favicon.png (512x512)
-   - favicon-192.png
-   - favicon.ico
-   - apple-touch-icon.png
-
-7. Melhorias de imagens:
-   - textos alternativos em imagens de conteúdo;
-   - loading lazy e decoding async em imagens abaixo da dobra.
-
-8. Vídeos do Hero:
-   - primeiro vídeo permanece prioritário;
-   - vídeos seguintes usam preload metadata para reduzir carregamento inicial.
-
-9. Relatório de Equidade Salarial:
-   - PDF incluído em assets/documentos/
-   - botão do tópico 06 em Carreiras agora abre o PDF em nova aba.
-
-10. sitemap.xml atualizado para 2026-08-28.
-
-IMPORTANTE SOBRE O GOOGLE
--------------------------
-O código informa a preferência "Mattiuz", mas o nome mostrado acima da URL nos
-resultados é selecionado automaticamente pelo Google. Mesmo com todos os sinais
-corretos, a atualização pode levar dias ou semanas.
-
-RESULTADO DESEJADO
-------------------
->>>>>>> 57863d1 (site limpo)
 [ícone Mattiuz] Mattiuz
 https://mattiuz.com.br
 Mattiuz | Entretelas e Materiais Têxteis
 
-<<<<<<< HEAD
 ARQUIVOS SEO ADICIONADOS
 ------------------------
 robots.txt
@@ -111,54 +50,3 @@ apple-touch-icon.png
 SEO-LEIA-ME.txt
 
 O index.html também recebeu canonical, meta robots, Open Graph e JSON-LD WebSite + Organization.
-=======
-UPLOAD PARA A HOSTINGER
------------------------
-Substitua o conteúdo da public_html pelos arquivos deste pacote, preservando a
-estrutura de pastas. Certifique-se especialmente de enviar:
-
-- index.html
-- styles.css
-- pages.jsx
-- i18n.jsx
-- institucional.jsx
-- contact.jsx
-- historia.jsx
-- favicon.ico
-- sitemap.xml
-- llms.txt
-- assets/documentos/relatorio-equidade-salarial-2026.pdf
-
-TESTES APÓS O UPLOAD
---------------------
-Abra:
-https://mattiuz.com.br/
-https://mattiuz.com.br/favicon.png
-https://mattiuz.com.br/favicon.ico
-https://mattiuz.com.br/robots.txt
-https://mattiuz.com.br/sitemap.xml
-https://mattiuz.com.br/llms.txt
-https://mattiuz.com.br/assets/documentos/relatorio-equidade-salarial-2026.pdf
-
-Depois vá em Carreiras e teste o botão "Abrir PDF" do tópico 06.
-
-SEARCH CONSOLE
---------------
-Depois de confirmar que a versão publicada está correta:
-1. Inspecione https://mattiuz.com.br/
-2. Use "Testar URL publicada".
-3. Solicite indexação UMA vez.
-4. Mantenha sitemap.xml cadastrado.
-5. Aguarde o processamento; evite mudar o nome/JSON-LD repetidamente durante esse período.
-
-VALIDAÇÃO DO NOME DO SITE
--------------------------
-O recurso de Site Name não é validado pelo Rich Results Test. Para conferir a
-sintaxe do JSON-LD, use o Schema Markup Validator e, no Search Console, confira
-a versão publicada que o Google consegue acessar.
-
-PRÓXIMA ETAPA
--------------
-Quando Instagram e LinkedIn oficiais estiverem criados, adicionar as URLs reais
-ao campo sameAs do Organization. Não foram incluídos links fictícios nesta versão.
->>>>>>> 57863d1 (site limpo)
